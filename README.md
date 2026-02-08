@@ -525,7 +525,7 @@
                                         <h4 class="font-bold text-slate-800 mb-2">3. Cấu hình tối ưu</h4>
                                         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                                             
-                                            <img src="app/shadowrocket/cai-dat-shadowrocket-chuyen-tiep.png" class="rounded-lg border zoomable" loading="lazy">
+                                            <img src="https://i.imgur.com/dAwsnXg.jpeg" class="rounded-lg border zoomable" loading="lazy">
                                             <img src="app/shadowrocket/cai-dat-shadowrocket-thong-bao.png" class="rounded-lg border zoomable" loading="lazy">
                                         </div>
                                     </div>
