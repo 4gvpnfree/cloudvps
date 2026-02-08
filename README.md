@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html lang="vi" class="scroll-smooth scroll-pt-24">
 <head>
     <meta charset="UTF-8">
