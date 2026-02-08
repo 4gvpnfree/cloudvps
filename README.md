@@ -2,10 +2,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hướng Dẫn CSA DATA 5G | Data Tốc Độ Cao Không Giới Hạn</title>
+    <title>Hướng Dẫn 5G FULLDATA | Data Tốc Độ Cao Không Giới Hạn</title>
     
     <!-- SEO Optimization -->
-    <meta name="description" content="Hướng dẫn sử dụng CSA DATA 5G: Cách đăng ký gói nền TikTok Viettel/Vina/Mobi, cài đặt App Gold V2Ray, NPV Tunnel và Shadowrocket để truy cập mạng không giới hạn.">
+    <meta name="description" content="Hướng dẫn sử dụng CSA DATA 5G: Cách đăng ký gói nền TikTok Viettel/Vina/Mobi, Shadowrocket-V2rayTun-V2ray để truy cập mạng không giới hạn.">
     <meta name="keywords" content="csa data 5g, data 4g không giới hạn, hack 4g viettel, gói nền tiktok, gold v2ray, shadowrocket, npv tunnel, vpn 4g tốc độ cao">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://thongtin.yuichycsa.id.vn/CSADATA5G/">
@@ -171,7 +171,7 @@
                 <a href="https://zalo.me/g/brghqr706" target="_blank" class="hidden sm:flex items-center gap-2 px-4 py-2 text-sm font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 rounded-full transition">
                     💬 Hỗ Trợ
                 </a>
-                <a href="https://csadata5g.com" target="_blank" class="flex items-center gap-2 px-5 py-2 text-sm font-bold text-white bg-blue-600 hover:bg-blue-700 rounded-full shadow-lg hover:shadow-blue-500/30 transition transform hover:-translate-y-0.5">
+                <a href="https://5gfulldata.com" target="_blank" class="flex items-center gap-2 px-5 py-2 text-sm font-bold text-white bg-blue-600 hover:bg-blue-700 rounded-full shadow-lg hover:shadow-blue-500/30 transition transform hover:-translate-y-0.5">
                     🌐 Vào Web Dịch Vụ
                 </a>
             </div>
@@ -183,15 +183,14 @@
         <!-- SECTION 1: GIỚI THIỆU DỊCH VỤ -->
         <section class="text-center mb-16 reveal">
             <span class="inline-block px-4 py-1.5 rounded-full bg-blue-100 text-blue-700 text-sm font-bold mb-6 animate-pulse">
-                ✨ Giải Pháp Internet Tiết Kiệm Nhất 2024
+                ✨ Giải Pháp Internet Tiết Kiệm Nhất 2026
             </span>
             <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
                 Truy Cập Data 4G/5G <br class="hidden md:block" />
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">Tốc Độ Cao & Không Giới Hạn</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-600 mb-10 max-w-3xl mx-auto leading-relaxed">
-                <b>CSA DATA 5G</b> giúp bạn "phù phép" các gói cước nền TikTok giá rẻ thành data truy cập <b>tất cả mọi ứng dụng</b> (Youtube, Facebook, Game...) với tốc độ cao và chi phí cực thấp.
-            </p>
+                <b>5G FULL DATA</b> Giá rẻ-Uy tín-Chất lượng phù hớp với tất cả người dùng </p>
 
             <!-- 3 Lợi Ích Cốt Lõi (Đã căn giữa Mobile) -->
             <div class="grid md:grid-cols-3 gap-6 text-left max-w-4xl mx-auto">
@@ -263,20 +262,20 @@
                 <div class="p-6 md:p-8 space-y-6">
                     <div class="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg">
                         <div class="flex gap-3">
-                            <span class="text-2xl">⚠️</span>
+                            <span class="text-2xl">🌸</span>
                             <div>
-                                <h4 class="font-bold text-amber-800 text-sm uppercase mb-1">Lưu Ý Quan Trọng</h4>
-                                <p class="text-sm text-amber-700">Đây là hệ thống 5G độc lập. Tài khoản cũ bên <b>CSA 4G</b> sẽ không đăng nhập được. Vui lòng đăng ký tài khoản mới.</p>
+                                <h4 class="font-bold text-amber-800 text-sm uppercase mb-1">CHÚC MỪNG NĂM MỚI QUÝ KHÁCH</h4>
+                                <p class="text-sm text-amber-700">Khách hàng vô web đăng ký mua 5G VPN ủng hộ mình nha.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="prose text-slate-600 max-w-none">
-                        <p><b>Bước 1:</b> Truy cập <a href="https://csadata5g.com" target="_blank" class="text-blue-600 font-bold hover:underline">csadata5g.com</a> để đăng ký tài khoản.</p>
+                        <p><b>Bước 1:</b> Truy cập <a href="https://5gfuldata.com" target="_blank" class="text-blue-600 font-bold hover:underline">csadata5g.com</a> để đăng ký tài khoản.</p>
                         <p><b>Bước 2:</b> Nạp tiền và chọn gói cước phù hợp:</p>
                         <ul class="list-disc pl-5 space-y-2 mt-2">
-                            <li><b>Gói Tháng:</b> Phù hợp cá nhân, sử dụng 1 thiết bị.</li>
-                            <li><b>Gói Max (VIP):</b> Phù hợp nhu cầu cao, chia sẻ nhiều thiết bị.</li>
+                            <li><b>Gói Basic:</b> Phù hợp cá nhân, sử dụng 1 thiết bị.</li>
+                            <li><b>Gói limited-Premium-Vĩnh viễn VN:</b> Phù hợp nhu cầu cao, chia sẻ nhiều thiết bị.</li>
                         </ul>
                     </div>
 
@@ -299,7 +298,7 @@
                 </div>
                 
                 <div class="p-6 md:p-8">
-                    <p class="text-slate-600 mb-6">Bạn cần đăng ký gói "nền" (thường là gói TikTok hoặc Liên Quân) để làm mồi kết nối. Hãy chọn nhà mạng bạn đang dùng:</p>
+                    <p class="text-slate-600 mb-6">Bạn cần đăng ký gói "nền" (thường là gói TikTok) để làm nền kết nối. Hãy chọn nhà mạng bạn đang dùng:</p>
 
                     <!-- Tabs -->
                     <div class="flex border-b border-gray-200 mb-6">
@@ -320,7 +319,7 @@
                             <!-- Cách 1: T30H (Ưu tiên) -->
                             <div class="bg-white border-2 border-green-500 rounded-2xl p-5 shadow-sm relative overflow-hidden">
                                 <div class="absolute top-0 right-0 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">RẺ NHẤT (30k)</div>
-                                <h4 class="font-bold text-lg text-slate-800 mb-2">Cách 1: Gói T30H</h4>
+                                <h4 class="font-bold text-lg text-slate-800 mb-2">Cách 1: Gói T30H(gói này tùy từng Sim nhé)</h4>
                                 <p class="text-sm text-slate-600 mb-4 h-10">Đăng ký qua Website Hub của Viettel. Ưu điểm là rẻ (30k/tháng) và không tự gia hạn.</p>
                                 
                                 <div class="space-y-2 mb-4">
@@ -635,79 +634,7 @@
                         </div>
                     </div>
 
-                    <!-- --- TAB NPV (GAMING) --- -->
-                    <div id="npv" class="app-content hidden animate-fade">
-                        <div class="bg-blue-50 border border-blue-100 p-4 rounded-xl mb-6 flex items-start gap-3">
-                             <span class="text-blue-600 text-2xl">🎮</span>
-                             <div>
-                                 <h4 class="font-bold text-blue-900 mb-1">NPV Tunnel (Gaming)</h4>
-                                 <p class="text-sm text-blue-700">Giải pháp kết nối ổn định cho cả Android và iOS. Dùng key riêng.</p>
-                             </div>
-                          </div>
-
-                          <!-- Link Tải -->
-                         <div class="flex flex-col sm:flex-row justify-center gap-4 mb-8">
-                            <a href="https://apps.apple.com/vn/app/npv-tunnel/id1629465476" target="_blank" class="flex items-center justify-center gap-2 bg-black text-white px-5 py-2 rounded-lg font-bold hover:opacity-80 transition text-sm">
-                                <span>🍏</span> iOS
-                            </a>
-                            <a href="https://play.google.com/store/apps/details?id=com.napsternetlabs.napsternetv" target="_blank" class="flex items-center justify-center gap-2 bg-green-600 text-white px-5 py-2 rounded-lg font-bold hover:bg-green-700 transition text-sm">
-                                <span>🤖</span> Android
-                            </a>
-                        </div>
-
-                        <div class="space-y-6">
-                            <!-- Bước 1 -->
-                            <div class="grid md:grid-cols-2 gap-4">
-                                <div>
-                                    <h4 class="font-bold text-slate-800 mb-1">Bước 1: Lấy Device ID</h4>
-                                    <p class="text-sm text-slate-600 mb-2">Mở App NPV -> Chọn tab <b>More</b> -> Copy <b>Device ID</b>.</p>
-                                    <div class="bg-yellow-50 text-xs text-yellow-800 p-2 rounded border border-yellow-200">
-                                        <b>Lưu ý:</b> Mỗi máy chỉ có 1 ID duy nhất.
-                                    </div>
-                                </div>
-                                <div>
-                                    <img src="app/npvtunnel/dong-bo-npv-1.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="w-full rounded border zoomable" alt="Lấy Device ID" loading="lazy">
-                                    <div class="img-placeholder hidden h-20">📸 app/npvtunnel/dong-bo-npv-1.png</div>
-                                </div>
-                            </div>
-
-                            <!-- Bước 2 -->
-                            <div class="grid md:grid-cols-2 gap-4">
-                                <div>
-                                    <h4 class="font-bold text-slate-800 mb-1">Bước 2: Gửi ID cho Admin</h4>
-                                    <p class="text-sm text-slate-600 mb-2">Nhắn Zalo <b>0969.934.801 (Tuấn Trí)</b>:</p>
-                                    <ul class="list-disc pl-5 text-sm text-slate-600 mb-2">
-                                        <li>Device ID vừa copy.</li>
-                                        <li>Ảnh chụp màn hình trang chủ web.</li>
-                                    </ul>
-                                    <a href="https://zalo.me/0969934801" target="_blank" class="text-blue-600 font-bold underline text-sm">Chat Zalo Ngay</a>
-                                </div>
-                                <div>
-                                    <img src="app/npvtunnel/mau-chup-trang-chu.jpg" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="w-full rounded border zoomable" alt="Ảnh mẫu gửi Admin" loading="lazy">
-                                    <div class="img-placeholder hidden h-20">📸 app/npvtunnel/mau-chup-trang-chu.jpg</div>
-                                </div>
-                            </div>
-
-                            <!-- Bước 3 -->
-                            <div class="grid md:grid-cols-2 gap-4">
-                                <div>
-                                    <h4 class="font-bold text-slate-800 mb-1">Bước 3: Nhập Key Config</h4>
-                                    <p class="text-sm text-slate-600 mb-2">Admin gửi lại Key -> Vào tab <b>Configs</b> -> Bấm <b>(+)</b> -> <b>Import Cloud Config</b> -> Dán Key.</p>
-                                </div>
-                                <div>
-                                    <img src="app/npvtunnel/dong-bo-npv-2.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="w-full rounded border zoomable" alt="Nhập Key Config" loading="lazy">
-                                    <div class="img-placeholder hidden h-20">📸 app/npvtunnel/dong-bo-npv-2.png</div>
-                                </div>
-                            </div>
-
-                            <!-- Bước 4 -->
-                            <div>
-                                <h4 class="font-bold text-slate-800 mb-1">Bước 4: Kết nối</h4>
-                                <p class="text-sm text-slate-600">Quay lại <b>Home</b>, chọn Config vừa thêm và bấm <b>Start</b>.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    
             </section>
 
             <!-- BƯỚC 4: FIX LỖI THƯỜNG GẶP -->
