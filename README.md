@@ -519,14 +519,14 @@
                                     <div>
                                         <h4 class="font-bold text-slate-800 mb-2">2. Đồng bộ & Kết nối</h4>
                                         <p class="text-sm text-slate-600 mb-2">Vào Web > Đồng bộ máy chủ > Sao chép liên kết Shadowrocket. Mở app lên sẽ tự động phát hiện.</p>
-                                        <img src="app/shadowrocket/dong-bo-shadowrocket-ios.png" onerror="this.style.display='none'" class="w-full rounded-lg shadow border zoomable" loading="lazy">
+                                        <img src="https://i.imgur.com/dAwsnXg.jpeg" class="rounded-lg border zoomable" loading="lazy">
                                     </div>
                                     <div>
                                         <h4 class="font-bold text-slate-800 mb-2">3. Cấu hình tối ưu</h4>
-                                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                                        <div class="grid grid-cols-1 md:grid-cols-1 gap-1">
                                             
                                             <img src="https://i.imgur.com/dAwsnXg.jpeg" class="rounded-lg border zoomable" loading="lazy">
-                                            <img src="app/shadowrocket/cai-dat-shadowrocket-thong-bao.png" class="rounded-lg border zoomable" loading="lazy">
+                                            
                                         </div>
                                     </div>
                                 </div>
