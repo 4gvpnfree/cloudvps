@@ -1,126 +1,915 @@
-<html lang="vi">
+
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth scroll-pt-24">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CloudVPS - Thuê VPS Giá Rẻ</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-<style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
-body{background:#0f172a;color:#fff}
-header{
-    background:linear-gradient(135deg,#2563eb,#9333ea);
-    padding:80px 20px;
-    text-align:center;
-}
-header h1{font-size:42px;font-weight:700}
-header p{margin-top:15px;font-size:18px;opacity:.9}
-.btn{
-    display:inline-block;
-    margin-top:25px;
-    padding:12px 30px;
-    background:#fff;
-    color:#000;
-    border-radius:30px;
-    font-weight:600;
-    text-decoration:none;
-    transition:.3s;
-}
-.btn:hover{transform:scale(1.05)}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng Dẫn CSA DATA 5G | Data Tốc Độ Cao Không Giới Hạn</title>
+    
+    <!-- SEO Optimization -->
+    <meta name="description" content="Hướng dẫn sử dụng CSA DATA 5G: Cách đăng ký gói nền TikTok Viettel/Vina/Mobi, cài đặt App Gold V2Ray, NPV Tunnel và Shadowrocket để truy cập mạng không giới hạn.">
+    <meta name="keywords" content="csa data 5g, data 4g không giới hạn, hack 4g viettel, gói nền tiktok, gold v2ray, shadowrocket, npv tunnel, vpn 4g tốc độ cao">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://thongtin.yuichycsa.id.vn/CSADATA5G/">
+    
+    <!-- Open Graph (Facebook/Zalo) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thongtin.yuichycsa.id.vn/CSADATA5G/">
+    <meta property="og:title" content="CSA DATA 5G - Giải Pháp Data Tốc Độ Cao">
+    <meta property="og:description" content="Truy cập Internet không giới hạn dung lượng. Hỗ trợ đa nền tảng Android & iOS.">
+    <meta property="og:image" content="image/banner.png">
 
-.section{
-    padding:70px 20px;
-    text-align:center;
-}
-.section h2{font-size:32px;margin-bottom:40px}
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="image/logo.png">
+    <link rel="shortcut icon" type="image/png" href="image/logo.png">
 
-.pricing{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:30px;
-    max-width:1100px;
-    margin:auto;
-}
-.card{
-    background:#1e293b;
-    padding:30px;
-    border-radius:15px;
-    transition:.3s;
-}
-.card:hover{transform:translateY(-10px)}
-.price{
-    font-size:30px;
-    margin:20px 0;
-    font-weight:700;
-}
-.card ul{
-    list-style:none;
-    margin:20px 0;
-}
-.card ul li{margin:10px 0;opacity:.8}
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
 
-footer{
-    background:#020617;
-    padding:25px;
-    text-align:center;
-    font-size:14px;
-    opacity:.7;
-}
-</style>
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #1e40af;
+            --accent: #f59e0b;
+        }
+        body { font-family: 'Outfit', sans-serif; background-color: #f8fafc; color: #334155; }
+        
+        /* Custom Styles */
+        .feature-card { transition: all 0.3s ease; border: 1px solid #f1f5f9; }
+        .feature-card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px -10px rgba(37, 99, 235, 0.2); border-color: #bfdbfe; }
+        
+        .step-circle { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.2rem; background: var(--primary); color: white; flex-shrink: 0; box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.3); }
+        
+        .content-block { background: white; border-radius: 20px; box-shadow: 0 4px 20px -5px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; margin-bottom: 40px; overflow: hidden; }
+        
+        .tab-btn { padding: 14px 24px; font-weight: 600; color: #64748b; border-bottom: 2px solid transparent; transition: all 0.2s; }
+        .tab-btn:hover { color: var(--primary); background: #f8fafc; }
+        .tab-btn.active { color: var(--primary); border-bottom-color: var(--primary); background: #eff6ff; }
+        
+        /* Syntax Box */
+        .syntax-box { background: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid var(--primary); padding: 12px; margin: 8px 0; font-family: monospace; font-size: 1em; color: #0f172a; display: flex; align-items: center; justify-content: space-between; border-radius: 6px; cursor: pointer; transition: background 0.2s; position: relative; }
+        .syntax-box:hover { background: #eff6ff; }
+        .syntax-box:active { transform: scale(0.99); }
+        .syntax-box::after { content: '📋 Chạm để chép'; font-size: 0.7em; color: var(--primary); opacity: 0.7; font-family: 'Outfit', sans-serif; font-weight: bold; }
+        
+        .zoomable { cursor: zoom-in; transition: transform 0.2s; }
+        .zoomable:hover { transform: scale(1.02); }
+        .zoom-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.95); display: none; align-items: center; justify-content: center; z-index: 100; backdrop-filter: blur(5px); }
+        .zoom-overlay.active { display: flex; animation: fadeIn 0.25s ease-out; }
+        
+        .img-placeholder { width: 100%; height: 220px; background: #f1f5f9; border: 2px dashed #cbd5e1; display: flex; align-items: center; justify-content: center; color: #64748b; border-radius: 12px; font-size: 0.9em; flex-direction: column; gap: 8px; transition: all 0.2s; }
+        .img-placeholder:hover { border-color: var(--primary); background: #eff6ff; color: var(--primary); }
+
+        /* Modern App Card Accordion Styles */
+        .app-card { 
+            background: white; 
+            border: 1px solid #e2e8f0; 
+            border-radius: 16px; 
+            overflow: hidden; 
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+        }
+        .app-card:hover { border-color: #cbd5e1; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        
+        .app-card.active { border-color: var(--primary); box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.15); }
+        .app-card.active .app-header { background-color: #fff; }
+        
+        .app-header { 
+            padding: 16px; 
+            display: flex; 
+            align-items: center; 
+            cursor: pointer; 
+            background: #fff;
+            position: relative;
+            z-index: 10;
+        }
+        
+        .app-icon-box {
+            width: 56px; height: 56px; 
+            border-radius: 14px; 
+            display: flex; align-items: center; justify-content: center; 
+            font-size: 28px; 
+            flex-shrink: 0;
+            margin-right: 16px;
+            transition: transform 0.3s;
+        }
+        
+        .app-card:hover .app-icon-box { transform: scale(1.05); }
+
+        .card-content { 
+            max-height: 0; 
+            overflow: hidden; 
+            background-color: #f8fafc;
+            border-top: 1px solid #f1f5f9;
+            transition: max-height 0.4s cubic-bezier(0, 1, 0, 1);
+            opacity: 0;
+        }
+        
+        .app-card.active .card-content { 
+            transition: max-height 0.5s ease-in-out, opacity 0.3s ease-in;
+            opacity: 1;
+        }
+
+        .rotate-icon { transition: transform 0.3s; color: #94a3b8; }
+        .app-card.active .rotate-icon { transform: rotate(180deg); color: var(--primary); }
+
+        /* Badge Style */
+        .recommend-badge {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: white;
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            box-shadow: 0 2px 5px rgba(37, 99, 235, 0.3);
+            animation: pulse-badge 2s infinite;
+        }
+
+        /* Scroll Reveal Animation */
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+
+        /* Back to top */
+        #backToTop {
+            position: fixed; bottom: 20px; right: 20px;
+            background: var(--primary); color: white;
+            width: 45px; height: 45px; border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2); cursor: pointer;
+            opacity: 0; visibility: hidden; transition: all 0.3s; z-index: 90;
+        }
+        #backToTop.show { opacity: 1; visibility: visible; }
+        #backToTop:hover { transform: translateY(-3px); box-shadow: 0 6px 15px rgba(37, 99, 235, 0.4); }
+
+        /* Keyframes */
+        @keyframes pulse-badge { 0% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.4); } 70% { box-shadow: 0 0 0 6px rgba(37, 99, 235, 0); } 100% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0); } }
+        @keyframes fadeIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+        @keyframes fadein { from {bottom: 0; opacity: 0;} to {bottom: 30px; opacity: 1;} }
+        @keyframes fadeout { from {bottom: 30px; opacity: 1;} to {bottom: 0; opacity: 0;} }
+
+        /* Toast Notification */
+        #toast { visibility: hidden; min-width: 250px; background-color: #333; color: #fff; text-align: center; border-radius: 50px; padding: 12px; position: fixed; z-index: 999; left: 50%; bottom: 30px; transform: translateX(-50%); font-size: 14px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+        #toast.show { visibility: visible; animation: fadein 0.5s, fadeout 0.5s 2.5s; }
+    </style>
 </head>
 <body>
 
-<header>
-    <h1>CloudVPS</h1>
-    <p>Thuê VPS tốc độ cao - SSD NVMe - Giá chỉ từ 99K/tháng</p>
-    <a href="#pricing" class="btn">Xem Bảng Giá</a>
-</header>
+    <!-- HERO HEADER -->
+    <header class="bg-white/90 backdrop-blur-md border-b border-gray-200 sticky top-0 z-50 shadow-sm">
+        <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-3 cursor-pointer" onclick="window.scrollTo(0,0)">
+                <img src="image/logo.png" alt="Logo" class="w-10 h-10 rounded-lg shadow-sm">
+                <span class="font-extrabold text-xl text-slate-800 tracking-tight">CSA DATA 5G</span>
+            </div>
+            <div class="flex gap-3">
+                <a href="https://zalo.me/g/brghqr706" target="_blank" class="hidden sm:flex items-center gap-2 px-4 py-2 text-sm font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 rounded-full transition">
+                    💬 Hỗ Trợ
+                </a>
+                <a href="https://csadata5g.com" target="_blank" class="flex items-center gap-2 px-5 py-2 text-sm font-bold text-white bg-blue-600 hover:bg-blue-700 rounded-full shadow-lg hover:shadow-blue-500/30 transition transform hover:-translate-y-0.5">
+                    🌐 Vào Web Dịch Vụ
+                </a>
+            </div>
+        </div>
+    </header>
 
-<section class="section" id="pricing">
-    <h2>Bảng Giá VPS</h2>
-    <div class="pricing">
+    <main class="max-w-5xl mx-auto px-4 py-10">
         
-        <div class="card">
-            <h3>VPS Basic</h3>
-            <div class="price">99.000đ</div>
-            <ul>
-                <li>1 CPU</li>
-                <li>2GB RAM</li>
-                <li>30GB SSD NVMe</li>
-                <li>1TB Bandwidth</li>
-            </ul>
-            <a href="#" class="btn">Thuê Ngay</a>
+        <!-- SECTION 1: GIỚI THIỆU DỊCH VỤ -->
+        <section class="text-center mb-16 reveal">
+            <span class="inline-block px-4 py-1.5 rounded-full bg-blue-100 text-blue-700 text-sm font-bold mb-6 animate-pulse">
+                ✨ Giải Pháp Internet Tiết Kiệm Nhất 2024
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
+                Truy Cập Data 4G/5G <br class="hidden md:block" />
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">Tốc Độ Cao & Không Giới Hạn</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-600 mb-10 max-w-3xl mx-auto leading-relaxed">
+                <b>CSA DATA 5G</b> giúp bạn "phù phép" các gói cước nền TikTok giá rẻ thành data truy cập <b>tất cả mọi ứng dụng</b> (Youtube, Facebook, Game...) với tốc độ cao và chi phí cực thấp.
+            </p>
+
+            <!-- 3 Lợi Ích Cốt Lõi (Đã căn giữa Mobile) -->
+            <div class="grid md:grid-cols-3 gap-6 text-left max-w-4xl mx-auto">
+                <!-- Card 1 -->
+                <div class="feature-card bg-white p-6 rounded-2xl shadow-sm flex flex-col items-center md:items-start text-center md:text-left reveal">
+                    <div class="w-14 h-14 bg-green-100 text-green-600 rounded-xl flex items-center justify-center text-3xl mb-4">💰</div>
+                    <h3 class="font-bold text-xl text-slate-800 mb-2">Siêu Tiết Kiệm</h3>
+                    <p class="text-slate-600 text-sm leading-6">Chỉ tốn <b>10k - 50k/tháng</b> cho nhà mạng. Rẻ gấp 10 lần so với mua gói Data truyền thống.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="feature-card bg-white p-6 rounded-2xl shadow-sm flex flex-col items-center md:items-start text-center md:text-left reveal">
+                    <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center text-3xl mb-4">🚀</div>
+                    <h3 class="font-bold text-xl text-slate-800 mb-2">Tốc Độ 5G</h3>
+                    <p class="text-slate-600 text-sm leading-6">Sử dụng hạ tầng Server riêng biệt, tối ưu băng thông cho Gaming, Streaming 4K mượt mà.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="feature-card bg-white p-6 rounded-2xl shadow-sm flex flex-col items-center md:items-start text-center md:text-left reveal">
+                    <div class="w-14 h-14 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center text-3xl mb-4">🛡️</div>
+                    <h3 class="font-bold text-xl text-slate-800 mb-2">Bảo Mật Cao</h3>
+                    <p class="text-slate-600 text-sm leading-6">Mã hóa kết nối Internet, ẩn danh tính và bảo vệ thông tin cá nhân trên mọi môi trường mạng.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="border-t border-gray-200 my-12 relative reveal">
+            <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#f8fafc] px-4 text-slate-400 font-medium text-sm uppercase tracking-widest">
+                Quy Trình Sử Dụng
+            </span>
         </div>
 
-        <div class="card">
-            <h3>VPS Pro</h3>
-            <div class="price">199.000đ</div>
-            <ul>
-                <li>2 CPU</li>
-                <li>4GB RAM</li>
-                <li>60GB SSD NVMe</li>
-                <li>3TB Bandwidth</li>
-            </ul>
-            <a href="#" class="btn">Thuê Ngay</a>
+        <!-- NAVIGATION -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16 max-w-4xl mx-auto reveal">
+            <a href="#step1" class="group bg-white border border-gray-200 p-4 rounded-xl flex flex-col items-center gap-2 hover:border-blue-500 hover:shadow-md transition text-center">
+                <span class="w-8 h-8 rounded-full bg-blue-50 text-blue-600 font-bold flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition">1</span>
+                <div>
+                    <h4 class="font-bold text-slate-800 text-sm">Mua Gói</h4>
+                </div>
+            </a>
+            <a href="#step2" class="group bg-white border border-gray-200 p-4 rounded-xl flex flex-col items-center gap-2 hover:border-blue-500 hover:shadow-md transition text-center">
+                <span class="w-8 h-8 rounded-full bg-blue-50 text-blue-600 font-bold flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition">2</span>
+                <div>
+                    <h4 class="font-bold text-slate-800 text-sm">Gói Nền</h4>
+                </div>
+            </a>
+            <a href="#step3" class="group bg-white border border-gray-200 p-4 rounded-xl flex flex-col items-center gap-2 hover:border-blue-500 hover:shadow-md transition text-center">
+                <span class="w-8 h-8 rounded-full bg-blue-50 text-blue-600 font-bold flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition">3</span>
+                <div>
+                    <h4 class="font-bold text-slate-800 text-sm">Cài App</h4>
+                </div>
+            </a>
+            <a href="#step4" class="group bg-white border border-gray-200 p-4 rounded-xl flex flex-col items-center gap-2 hover:border-red-500 hover:shadow-md transition text-center">
+                <span class="w-8 h-8 rounded-full bg-red-50 text-red-600 font-bold flex items-center justify-center group-hover:bg-red-600 group-hover:text-white transition">4</span>
+                <div>
+                    <h4 class="font-bold text-slate-800 text-sm">Fix Lỗi</h4>
+                </div>
+            </a>
         </div>
 
-        <div class="card">
-            <h3>VPS Business</h3>
-            <div class="price">399.000đ</div>
-            <ul>
-                <li>4 CPU</li>
-                <li>8GB RAM</li>
-                <li>120GB SSD NVMe</li>
-                <li>Unlimited Bandwidth</li>
-            </ul>
-            <a href="#" class="btn">Thuê Ngay</a>
-        </div>
+        <!-- HƯỚNG DẪN CHI TIẾT -->
+        <div class="max-w-4xl mx-auto space-y-12">
 
+            <!-- BƯỚC 1 -->
+            <section id="step1" class="content-block reveal">
+                <div class="p-6 border-b border-gray-100 flex items-center gap-4 bg-gradient-to-r from-gray-50 to-white">
+                    <div class="step-circle">1</div>
+                    <h2 class="text-2xl font-bold text-slate-800">Đăng Ký Tài Khoản & Mua Gói</h2>
+                </div>
+                
+                <div class="p-6 md:p-8 space-y-6">
+                    <div class="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg">
+                        <div class="flex gap-3">
+                            <span class="text-2xl">⚠️</span>
+                            <div>
+                                <h4 class="font-bold text-amber-800 text-sm uppercase mb-1">Lưu Ý Quan Trọng</h4>
+                                <p class="text-sm text-amber-700">Đây là hệ thống 5G độc lập. Tài khoản cũ bên <b>CSA 4G</b> sẽ không đăng nhập được. Vui lòng đăng ký tài khoản mới.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="prose text-slate-600 max-w-none">
+                        <p><b>Bước 1:</b> Truy cập <a href="https://csadata5g.com" target="_blank" class="text-blue-600 font-bold hover:underline">csadata5g.com</a> để đăng ký tài khoản.</p>
+                        <p><b>Bước 2:</b> Nạp tiền và chọn gói cước phù hợp:</p>
+                        <ul class="list-disc pl-5 space-y-2 mt-2">
+                            <li><b>Gói Tháng:</b> Phù hợp cá nhân, sử dụng 1 thiết bị.</li>
+                            <li><b>Gói Max (VIP):</b> Phù hợp nhu cầu cao, chia sẻ nhiều thiết bị.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-6">
+                        <img src="image/web-mua-goi.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="w-full rounded-xl shadow-lg border border-gray-100 zoomable" alt="Giao diện mua gói" loading="lazy">
+                        <div class="img-placeholder hidden">
+                            <span class="text-4xl mb-2">📸</span>
+                            <span class="font-bold text-slate-700">Chưa có ảnh: web-mua-goi.png</span>
+                            <span class="text-xs text-slate-500">(Chụp màn hình danh sách gói cước trên web)</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- BƯỚC 2 -->
+            <section id="step2" class="content-block reveal">
+                <div class="p-6 border-b border-gray-100 flex items-center gap-4 bg-gradient-to-r from-gray-50 to-white">
+                    <div class="step-circle">2</div>
+                    <h2 class="text-2xl font-bold text-slate-800">Đăng Ký Gói Nền Nhà Mạng</h2>
+                </div>
+                
+                <div class="p-6 md:p-8">
+                    <p class="text-slate-600 mb-6">Bạn cần đăng ký gói "nền" (thường là gói TikTok hoặc Liên Quân) để làm mồi kết nối. Hãy chọn nhà mạng bạn đang dùng:</p>
+
+                    <!-- Tabs -->
+                    <div class="flex border-b border-gray-200 mb-6">
+                        <button class="tab-btn active flex-1" onclick="openTab(event, 'viettel')">VIETTEL</button>
+                        <button class="tab-btn flex-1" onclick="openTab(event, 'vina')">VINAPHONE</button>
+                        <button class="tab-btn flex-1" onclick="openTab(event, 'mobi')">MOBIFONE</button>
+                    </div>
+
+                    <!-- Content Viettel -->
+                    <div id="viettel" class="tab-content block animate-fade">
+                        <div class="bg-red-50 p-4 rounded-xl border border-red-100 mb-6">
+                            <h3 class="font-bold text-red-700 flex items-center gap-2 mb-1">🔴 Sim Viettel - Có 2 Cách Đăng Ký</h3>
+                            <p class="text-sm text-red-600">Bạn có thể chọn 1 trong 2 cách bên dưới để đăng ký nền TikTok.</p>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-8">
+                            
+                            <!-- Cách 1: T30H (Ưu tiên) -->
+                            <div class="bg-white border-2 border-green-500 rounded-2xl p-5 shadow-sm relative overflow-hidden">
+                                <div class="absolute top-0 right-0 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">RẺ NHẤT (30k)</div>
+                                <h4 class="font-bold text-lg text-slate-800 mb-2">Cách 1: Gói T30H</h4>
+                                <p class="text-sm text-slate-600 mb-4 h-10">Đăng ký qua Website Hub của Viettel. Ưu điểm là rẻ (30k/tháng) và không tự gia hạn.</p>
+                                
+                                <div class="space-y-2 mb-4">
+                                    <a href="https://hub.vietteltelecom.vn/vx/5g/" target="_blank" class="block w-full text-center bg-green-600 hover:bg-green-700 text-white font-bold py-2 rounded-lg transition">
+                                        👉 Truy Cập Link Đăng Ký
+                                    </a>
+                                </div>
+
+                                <div class="text-xs text-slate-600 space-y-1 mb-4 bg-slate-50 p-3 rounded-lg">
+                                    <p><b>B1:</b> Kéo xuống tìm mục <b>"NÂNG TẦM GIẢI TRÍ 5G"</b>.</p>
+                                    <p><b>B2:</b> Chọn gói <b>TikTok 30k</b>.</p>
+                                    <p><b>B3:</b> Nhập SĐT & OTP để đăng nhập.</p>
+                                    <p><b>B4:</b> Thanh toán qua tài khoản chính.</p>
+                                </div>
+
+                                <img src="image/dang-ky-nen-t30h-viettel.jpg" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="w-full rounded-lg border zoomable" alt="Gói T30H Viettel" loading="lazy">
+                                <div class="img-placeholder hidden h-32">📸 Ảnh: dang-ky-nen-t30h-viettel.jpg</div>
+                            </div>
+
+                            <!-- Cách 2: Gói Soạn Tin -->
+                            <div class="bg-white border border-gray-200 rounded-2xl p-5 shadow-sm relative">
+                                <h4 class="font-bold text-lg text-slate-800 mb-2">Cách 2: Soạn Tin Nhắn</h4>
+                                <p class="text-sm text-slate-600 mb-4 h-10">Đăng ký gói chính gốc Viettel qua tin nhắn SMS. Nhanh gọn và tiện lợi.</p>
+                                
+                                <div class="space-y-3 mb-4">
+                                    <div>
+                                        <div class="flex justify-between items-center mb-1">
+                                            <span class="font-bold text-sm text-blue-700">Gói T50K (Khuyên dùng)</span>
+                                            <span class="text-xs bg-gray-100 px-2 py-0.5 rounded">50k/tháng</span>
+                                        </div>
+                                        <div class="syntax-box py-2 my-0 text-sm" onclick="copyText('T50K gửi 191')">T50K gửi 191</div>
+                                        <p class="text-xs text-slate-500 mt-1">Có 50GB/tháng. Phù hợp dùng vừa đủ.</p>
+                                    </div>
+
+                                    <div>
+                                        <div class="flex justify-between items-center mb-1">
+                                            <span class="font-bold text-sm text-purple-700">Gói T15KN (Dùng nhiều)</span>
+                                            <span class="text-xs bg-gray-100 px-2 py-0.5 rounded">15k/tuần</span>
+                                        </div>
+                                        <div class="syntax-box py-2 my-0 text-sm" onclick="copyText('T15KN gửi 191')">T15KN gửi 191</div>
+                                        <p class="text-xs text-slate-500 mt-1">~60k/tháng được 100GB (25GB/tuần). Phù hợp cày phim, game nhiều.</p>
+                                    </div>
+                                    
+                                     <div>
+                                        <div class="flex justify-between items-center mb-1">
+                                            <span class="font-bold text-sm text-slate-700">Gói T5K (Gói ngày)</span>
+                                            <span class="text-xs bg-gray-100 px-2 py-0.5 rounded">5k/ngày</span>
+                                        </div>
+                                        <div class="syntax-box py-2 my-0 text-sm" onclick="copyText('T5K gửi 191')">T5K gửi 191</div>
+                                    </div>
+                                </div>
+
+                                <img src="image/dang-ky-nen-tiktok-viettel.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="w-full rounded-lg border zoomable" alt="Gói TikTok Viettel" loading="lazy">
+                                <div class="img-placeholder hidden h-32">📸 Ảnh: dang-ky-nen-tiktok-viettel.png</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Content Vina -->
+                    <div id="vina" class="tab-content hidden animate-fade">
+                        <div class="bg-blue-50 p-4 rounded-xl border border-blue-100 mb-6">
+                            <h3 class="font-bold text-blue-700 flex items-center gap-2 mb-1">🔵 Sim VinaPhone - Ưu Tiên Gói TK30</h3>
+                            <p class="text-sm text-blue-600">Gói cước nền TikTok ổn định nhất mạng VinaPhone hiện nay.</p>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-8">
+                            
+                            <!-- Gói TK30 -->
+                            <div class="bg-white border-2 border-blue-500 rounded-2xl p-5 shadow-sm relative overflow-hidden">
+                                 <div class="absolute top-0 right-0 bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">KHUYÊN DÙNG</div>
+                                <h4 class="font-bold text-lg text-slate-800 mb-2">Gói TK30 (Tháng)</h4>
+                                <p class="text-sm text-slate-600 mb-4">Miễn phí 100% Data truy cập ứng dụng TikTok. Hạn dùng 30 ngày.</p>
+                                
+                                <div class="space-y-3 mb-4">
+                                     <div class="flex justify-between items-center mb-1">
+                                        <span class="font-bold text-sm text-blue-700">Cú pháp đăng ký:</span>
+                                        <span class="text-xs bg-gray-100 px-2 py-0.5 rounded font-bold">30.000đ/tháng</span>
+                                    </div>
+                                    <div class="syntax-box py-3 my-0 text-lg text-center justify-center font-bold text-blue-700 bg-blue-50 border-blue-200" onclick="copyText('TK30 gửi 888')">TK30 gửi 888</div>
+                                    <p class="text-xs text-center text-slate-500 mt-1 italic">Lưu ý: Tài khoản chính cần có đủ 30k.</p>
+                                </div>
+                            </div>
+
+                            <!-- Cách dự phòng -->
+                            <div class="bg-white border border-gray-200 rounded-2xl p-5 shadow-sm">
+                                <h4 class="font-bold text-lg text-slate-800 mb-2">Cách Dự Phòng (App My VNPT)</h4>
+                                <p class="text-sm text-slate-600 mb-4">Nếu không đăng ký được bằng tin nhắn, hãy thử đăng ký gói <b>T1</b> hoặc <b>GT1</b> trên ứng dụng My VNPT.</p>
+                                
+                                <div class="rounded-lg overflow-hidden border border-gray-100">
+                                    <img src="image/dang-ky-nen-tiktok-vina.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="w-full object-cover zoomable" alt="Gói TikTok VinaPhone" loading="lazy">
+                                    <div class="img-placeholder hidden h-40">📸 Ảnh: dang-ky-nen-tiktok-vina.png</div>
+                                </div>
+                                 <p class="text-xs text-slate-500 mt-2 text-center">Hình ảnh tham khảo trên App My VNPT</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Content Mobi -->
+                    <div id="mobi" class="tab-content hidden animate-fade">
+                        <div class="bg-yellow-50 p-4 rounded-xl border border-yellow-100 mb-6">
+                            <h3 class="font-bold text-yellow-700 flex items-center gap-2 mb-1">🟡 Sim MobiFone</h3>
+                            <p class="text-sm text-yellow-600">Gói nền TikTok siêu rẻ và ổn định cho MobiFone.</p>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-8 items-start">
+                            
+                            <!-- Gói TIK30 -->
+                            <div class="bg-white border-2 border-yellow-400 rounded-2xl p-5 shadow-sm relative overflow-hidden">
+                                <div class="absolute top-0 right-0 bg-yellow-400 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">HOT</div>
+                                <h4 class="font-bold text-lg text-slate-800 mb-2">Gói TIK30 (50k/Tháng)</h4>
+                                <p class="text-sm text-slate-600 mb-4">Ưu đãi data truy cập TikTok tốc độ cao. Hạn dùng 30 ngày.</p>
+                                
+                                <div class="space-y-3 mb-4">
+                                     <div class="flex justify-between items-center mb-1">
+                                        <span class="font-bold text-sm text-yellow-700">Cú pháp đăng ký:</span>
+                                        <span class="text-xs bg-gray-100 px-2 py-0.5 rounded font-bold">50.000đ/tháng</span>
+                                    </div>
+                                    <div class="syntax-box py-3 my-0 text-lg text-center justify-center font-bold text-yellow-700 bg-yellow-50 border-yellow-200" onclick="copyText('TIK30 gửi 9199')">TIK30 gửi 9199</div>
+                                    <p class="text-xs text-center text-slate-500 mt-1 italic">Lưu ý: Tài khoản chính cần có đủ 50k.</p>
+                                </div>
+                            </div>
+
+                            <!-- Ảnh minh họa -->
+                            <div class="bg-white border border-gray-200 rounded-2xl p-5 shadow-sm">
+                                <h4 class="font-bold text-lg text-slate-800 mb-2">Ảnh Minh Họa</h4>
+                                <p class="text-sm text-slate-600 mb-4">Xác nhận đăng ký thành công từ tổng đài.</p>
+                                
+                                <div class="rounded-lg overflow-hidden border border-gray-100">
+                                    <img src="image/dang-ky-nen-tiktok-mobi.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="w-full object-cover zoomable" alt="Gói TikTok MobiFone" loading="lazy">
+                                    <div class="img-placeholder hidden h-40">📸 Ảnh: dang-ky-nen-tiktok-mobi.png</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- BƯỚC 3 -->
+            <section id="step3" class="content-block reveal">
+                <div class="p-6 border-b border-gray-100 flex items-center gap-4 bg-gradient-to-r from-gray-50 to-white">
+                    <div class="step-circle">3</div>
+                    <h2 class="text-2xl font-bold text-slate-800">Cài Đặt & Kết Nối</h2>
+                </div>
+                
+                <div class="p-6 md:p-8">
+                    <!-- Thông báo ShopData (MỚI - Đã chuyển lên trên) -->
+                    <div class="mb-6 bg-red-50 border border-red-200 rounded-xl p-4 shadow-sm">
+                        <div class="flex items-start gap-3">
+                            <div class="text-2xl flex-shrink-0">📢</div>
+                            <div>
+                                <h4 class="font-bold text-red-900 text-sm mb-1">Thông Báo: Ngừng Hỗ Trợ App ShopData</h4>
+                                <p class="text-xs text-red-800 mb-1">
+                                    Ứng dụng ShopData đã ngừng hoạt động. Tuy nhiên, gói cước cũ của bạn <b>vẫn hoạt động tốt</b> trên các app mới.
+                                </p>
+                                <p class="text-xs text-slate-600">
+                                    Vui lòng cài đặt <b>Shadowrocket</b> (iOS) hoặc <b>V2Tun</b> (Android) theo hướng dẫn bên dưới.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tabs App -->
+                    <div class="flex gap-2 mb-6 bg-slate-100 p-1 rounded-lg overflow-x-auto">
+                        <button class="app-tab-btn active flex-1 py-2 px-4 rounded-md text-sm font-bold bg-white text-blue-600 shadow-sm transition whitespace-nowrap" onclick="openAppTab(event, 'ios')">IOS (iPhone)</button>
+                        <button class="app-tab-btn flex-1 py-2 px-4 rounded-md text-sm font-bold text-slate-500 hover:text-slate-700 transition whitespace-nowrap" onclick="openAppTab(event, 'android')">ANDROID</button>
+                        <button class="app-tab-btn flex-1 py-2 px-4 rounded-md text-sm font-bold text-slate-500 hover:text-slate-700 transition whitespace-nowrap" onclick="openAppTab(event, 'npv')">NPV (GAMING)</button>
+                    </div>
+
+                    <!-- --- TAB IOS --- -->
+                    <div id="ios" class="app-content block animate-fade space-y-4">
+                        
+                        <!-- Card 1: Shadowrocket (Ưu Tiên) -->
+                        <div class="app-card active"> <!-- Mặc định mở cái đầu tiên cho tiện -->
+                            <div class="app-header" onclick="toggleAccordion(this)">
+                                <div class="app-icon-box bg-indigo-50 text-indigo-600">🚀</div>
+                                <div class="flex-1">
+                                    <div class="flex items-center gap-2 mb-1">
+                                        <h4 class="font-bold text-slate-800 text-lg">Shadowrocket</h4>
+                                        <span class="recommend-badge">Khuyên Dùng</span>
+                                    </div>
+                                    <p class="text-xs text-slate-500">Ứng dụng VPN số 1 cho iPhone/iPad</p>
+                                </div>
+                                <span class="material-icons-round rotate-icon text-3xl">expand_more</span>
+                            </div>
+                            <div class="card-content" style="max-height: 2000px; opacity: 1;"> <!-- Mặc định hiện nội dung -->
+                                <div class="p-6 space-y-6">
+                                    <div>
+                                        <h4 class="font-bold text-slate-800 mb-2">1. Tải ứng dụng</h4>
+                                        <ul class="list-disc pl-5 space-y-2 text-slate-600 text-sm">
+                                            <li>Tải miễn phí tại <a href="https://idapple.csadata4g.me" target="_blank" class="text-blue-600 font-bold hover:underline">idapple.csadata4g.me</a></li>
+                                            <li>Hoặc thuê tải với giá 10k tại <a href="https://thuetaikhoanbanquyen.com" target="_blank" class="text-blue-600 font-bold hover:underline">thuetaikhoanbanquyen.com</a></li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-800 mb-2">2. Đồng bộ & Kết nối</h4>
+                                        <p class="text-sm text-slate-600 mb-2">Vào Web > Đồng bộ máy chủ > Sao chép liên kết Shadowrocket. Mở app lên sẽ tự động phát hiện.</p>
+                                        <img src="app/shadowrocket/dong-bo-shadowrocket-ios.png" onerror="this.style.display='none'" class="w-full rounded-lg shadow border zoomable" loading="lazy">
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-800 mb-2">3. Cấu hình tối ưu</h4>
+                                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                            <img src="app/shadowrocket/cai-dat-shadowrocket-cau-hinh.png" class="rounded-lg border zoomable" loading="lazy">
+                                            <img src="app/shadowrocket/cai-dat-shadowrocket-chuyen-tiep.png" class="rounded-lg border zoomable" loading="lazy">
+                                            <img src="app/shadowrocket/cai-dat-shadowrocket-thong-bao.png" class="rounded-lg border zoomable" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Happ -->
+                        <div class="app-card">
+                            <div class="app-header" onclick="toggleAccordion(this)">
+                                <div class="app-icon-box bg-orange-50 text-orange-600">⚡</div>
+                                <div class="flex-1">
+                                    <h4 class="font-bold text-slate-800 text-lg">Happ Proxy</h4>
+                                    <p class="text-xs text-slate-500">Giải pháp thay thế mới</p>
+                                </div>
+                                <span class="material-icons-round rotate-icon text-3xl">expand_more</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="p-6 space-y-6">
+                                    <div>
+                                        <h4 class="font-bold text-slate-800 mb-2">1. Tải ứng dụng</h4>
+                                        <a href="https://apps.apple.com/vn/app/happ-proxy-utility/id6504287215" target="_blank" class="text-blue-600 font-bold underline text-sm">Tải Happ trên App Store</a>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-800 mb-2">2. Sao chép liên kết Sub</h4>
+                                        <p class="text-sm text-slate-600 mb-2">Trên web CSA, chọn <b>Đồng bộ máy chủ</b> > <b>Sao chép liên kết đăng ký</b>.</p>
+                                        <img src="app/shadowrocket/sao-chep-lien-ket.jpg" onerror="this.style.display='none'" class="w-full rounded-lg shadow border zoomable" loading="lazy">
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-800 mb-2">3. Đồng bộ vào App</h4>
+                                        <p class="text-sm text-slate-600 mb-2">Mở App Happ > Chọn <b>Clipboard</b> (hoặc Dán từ bộ nhớ tạm) > Cho phép dán > Xong.</p>
+                                        <img src="app/happ/happ-dong-bo-server.png" onerror="this.style.display='none'" class="w-full rounded-lg shadow border zoomable" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- --- TAB ANDROID --- -->
+                    <div id="android" class="app-content hidden animate-fade space-y-4">
+                        
+                        <!-- Card 1: V2Tun (Ưu Tiên) -->
+                        <div class="app-card active">
+                            <div class="app-header" onclick="toggleAccordion(this)">
+                                <div class="app-icon-box bg-green-50 text-green-600">📡</div>
+                                <div class="flex-1">
+                                    <div class="flex items-center gap-2 mb-1">
+                                        <h4 class="font-bold text-slate-800 text-lg">V2Tun</h4>
+                                        <span class="recommend-badge bg-gradient-to-r from-green-500 to-emerald-600">Khuyên Dùng</span>
+                                    </div>
+                                    <p class="text-xs text-slate-500">Mượt mà, dễ sử dụng nhất cho Android</p>
+                                </div>
+                                <span class="material-icons-round rotate-icon text-3xl">expand_more</span>
+                            </div>
+                            <div class="card-content" style="max-height: 2000px; opacity: 1;">
+                                <div class="p-6 space-y-6">
+                                    <div>
+                                        <h4 class="font-bold text-slate-800 mb-2">1. Tải ứng dụng</h4>
+                                        <a href="https://play.google.com/store/apps/details?id=com.v2raytun.android" target="_blank" class="text-blue-600 font-bold underline text-sm">Tải V2Tun trên CH Play</a>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-800 mb-2">2. Sao chép liên kết Sub</h4>
+                                        <p class="text-sm text-slate-600 mb-2">Trên web CSA, chọn <b>Đồng bộ máy chủ</b> > <b>Sao chép liên kết đăng ký</b>.</p>
+                                        <img src="app/shadowrocket/sao-chep-lien-ket.jpg" onerror="this.style.display='none'" class="w-full rounded-lg shadow border zoomable" loading="lazy">
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-800 mb-2">3. Nhập cấu hình</h4>
+                                        <p class="text-sm text-slate-600 mb-2">Vào App V2Tun > Bấm dấu <b>(+)</b> góc phải trên > Chọn <b>"Nhập cấu hình từ Clipboard"</b> > Done.</p>
+                                        <img src="app/v2tun/v2tun-dong-bo.png" onerror="this.style.display='none'" class="w-full rounded-lg shadow border zoomable" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Gold V2Ray -->
+                        <div class="app-card">
+                            <div class="app-header" onclick="toggleAccordion(this)">
+                                <div class="app-icon-box bg-yellow-50 text-yellow-600">🥇</div>
+                                <div class="flex-1">
+                                    <h4 class="font-bold text-slate-800 text-lg">Gold V2Ray</h4>
+                                    <p class="text-xs text-slate-500">Ứng dụng ổn định lâu đời</p>
+                                </div>
+                                <span class="material-icons-round rotate-icon text-3xl">expand_more</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="p-6 space-y-6">
+                                    <div>
+                                        <h4 class="font-bold text-slate-800 mb-2">1. Tải ứng dụng</h4>
+                                        <a href="https://play.google.com/store/apps/details?id=me.syncrex.goldv2ray&hl=vi" target="_blank" class="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg text-sm transition">
+                                            📥 Tải trên CH Play
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-800 mb-2">2. Hướng dẫn kết nối</h4>
+                                        <ul class="list-disc pl-5 space-y-2 text-slate-600 text-sm">
+                                            <li>Sao chép liên kết đăng ký trên Web.</li>
+                                            <li>Vào Gold V2Ray > Menu > Các gói đăng ký > Dấu (+) > Nhập tên và Dán Link.</li>
+                                            <li>Ra màn hình chính > Bấm Update > Kết nối.</li>
+                                        </ul>
+                                        <div class="mt-2">
+                                            <img src="app/v2raygold/nhap-sub-v2raygold.png" onerror="this.style.display='none'" class="w-full rounded-lg shadow border zoomable" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- --- TAB NPV (GAMING) --- -->
+                    <div id="npv" class="app-content hidden animate-fade">
+                        <div class="bg-blue-50 border border-blue-100 p-4 rounded-xl mb-6 flex items-start gap-3">
+                             <span class="text-blue-600 text-2xl">🎮</span>
+                             <div>
+                                 <h4 class="font-bold text-blue-900 mb-1">NPV Tunnel (Gaming)</h4>
+                                 <p class="text-sm text-blue-700">Giải pháp kết nối ổn định cho cả Android và iOS. Dùng key riêng.</p>
+                             </div>
+                          </div>
+
+                          <!-- Link Tải -->
+                         <div class="flex flex-col sm:flex-row justify-center gap-4 mb-8">
+                            <a href="https://apps.apple.com/vn/app/npv-tunnel/id1629465476" target="_blank" class="flex items-center justify-center gap-2 bg-black text-white px-5 py-2 rounded-lg font-bold hover:opacity-80 transition text-sm">
+                                <span>🍏</span> iOS
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.napsternetlabs.napsternetv" target="_blank" class="flex items-center justify-center gap-2 bg-green-600 text-white px-5 py-2 rounded-lg font-bold hover:bg-green-700 transition text-sm">
+                                <span>🤖</span> Android
+                            </a>
+                        </div>
+
+                        <div class="space-y-6">
+                            <!-- Bước 1 -->
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <div>
+                                    <h4 class="font-bold text-slate-800 mb-1">Bước 1: Lấy Device ID</h4>
+                                    <p class="text-sm text-slate-600 mb-2">Mở App NPV -> Chọn tab <b>More</b> -> Copy <b>Device ID</b>.</p>
+                                    <div class="bg-yellow-50 text-xs text-yellow-800 p-2 rounded border border-yellow-200">
+                                        <b>Lưu ý:</b> Mỗi máy chỉ có 1 ID duy nhất.
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="app/npvtunnel/dong-bo-npv-1.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="w-full rounded border zoomable" alt="Lấy Device ID" loading="lazy">
+                                    <div class="img-placeholder hidden h-20">📸 app/npvtunnel/dong-bo-npv-1.png</div>
+                                </div>
+                            </div>
+
+                            <!-- Bước 2 -->
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <div>
+                                    <h4 class="font-bold text-slate-800 mb-1">Bước 2: Gửi ID cho Admin</h4>
+                                    <p class="text-sm text-slate-600 mb-2">Nhắn Zalo <b>0969.934.801 (Tuấn Trí)</b>:</p>
+                                    <ul class="list-disc pl-5 text-sm text-slate-600 mb-2">
+                                        <li>Device ID vừa copy.</li>
+                                        <li>Ảnh chụp màn hình trang chủ web.</li>
+                                    </ul>
+                                    <a href="https://zalo.me/0969934801" target="_blank" class="text-blue-600 font-bold underline text-sm">Chat Zalo Ngay</a>
+                                </div>
+                                <div>
+                                    <img src="app/npvtunnel/mau-chup-trang-chu.jpg" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="w-full rounded border zoomable" alt="Ảnh mẫu gửi Admin" loading="lazy">
+                                    <div class="img-placeholder hidden h-20">📸 app/npvtunnel/mau-chup-trang-chu.jpg</div>
+                                </div>
+                            </div>
+
+                            <!-- Bước 3 -->
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <div>
+                                    <h4 class="font-bold text-slate-800 mb-1">Bước 3: Nhập Key Config</h4>
+                                    <p class="text-sm text-slate-600 mb-2">Admin gửi lại Key -> Vào tab <b>Configs</b> -> Bấm <b>(+)</b> -> <b>Import Cloud Config</b> -> Dán Key.</p>
+                                </div>
+                                <div>
+                                    <img src="app/npvtunnel/dong-bo-npv-2.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="w-full rounded border zoomable" alt="Nhập Key Config" loading="lazy">
+                                    <div class="img-placeholder hidden h-20">📸 app/npvtunnel/dong-bo-npv-2.png</div>
+                                </div>
+                            </div>
+
+                            <!-- Bước 4 -->
+                            <div>
+                                <h4 class="font-bold text-slate-800 mb-1">Bước 4: Kết nối</h4>
+                                <p class="text-sm text-slate-600">Quay lại <b>Home</b>, chọn Config vừa thêm và bấm <b>Start</b>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- BƯỚC 4: FIX LỖI THƯỜNG GẶP -->
+            <section id="step4" class="content-block bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden mb-12 reveal">
+                <div class="p-6 border-b border-gray-100 flex items-center gap-4 bg-gradient-to-r from-gray-50 to-white">
+                    <div class="step-circle bg-red-600 text-white">4</div>
+                    <h2 class="text-2xl font-bold text-slate-800">Fix Lỗi Thường Gặp</h2>
+                </div>
+
+                <div class="p-6 md:p-8 space-y-12">
+                    
+                    <!-- Lỗi 1: Sập nền -->
+                    <div class="flex flex-col md:flex-row gap-6 border-b border-gray-100 pb-8 last:border-0 last:pb-0 reveal">
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg text-red-600 mb-2 flex items-center gap-2">
+                                <span class="text-2xl">📉</span> 1. Lỗi Sập Nền (Nền không lên)
+                            </h3>
+                            <p class="text-sm font-bold text-slate-700 mb-2">Dấu hiệu:</p>
+                            <p class="text-sm text-slate-600 mb-4 bg-slate-50 p-3 rounded-lg border border-slate-200">
+                                Bật 4G/5G (tắt VPN) vào TikTok lướt thử. Nếu thấy <b>giật, lag, đơ</b> hoặc không load được video => Bạn đã bị sập nền.
+                            </p>
+                            <div class="bg-green-50 p-3 rounded-lg border border-green-100">
+                                <span class="font-bold text-green-700 text-sm">✅ Cách Fix:</span>
+                                <span class="text-sm text-green-800">Gọi tổng đài nhà mạng để được hỗ trợ reset gói nền.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Lỗi 2: Quá thiết bị -->
+                    <div class="flex flex-col md:flex-row gap-6 border-b border-gray-100 pb-8 last:border-0 last:pb-0 reveal">
+                        <!-- Nội dung text (Luôn hiển thị trước trên Mobile) -->
+                        <div class="flex-1 order-1 md:order-1">
+                            <h3 class="font-bold text-lg text-red-600 mb-2 flex items-center gap-2">
+                                <span class="text-2xl">📱</span> 2. Lỗi "Máy 1 dùng được, máy 2 không"
+                            </h3>
+                            <p class="text-sm font-bold text-slate-700 mb-2">Nguyên nhân:</p>
+                            <p class="text-sm text-slate-600 mb-4">
+                                Do gói cước của bạn giới hạn số lượng thiết bị sử dụng cùng lúc.
+                            </p>
+                            <div class="bg-green-50 p-3 rounded-lg border border-green-100 mb-4">
+                                <p class="font-bold text-green-700 text-sm mb-1">✅ Cách Fix:</p>
+                                <ul class="list-disc pl-5 text-sm text-green-800 space-y-1">
+                                    <li>Vào Web > Dashboard > Bấm nút <b>Reset liên kết</b> (như ảnh).</li>
+                                    <li>Sau đó vào lại App trên điện thoại > Cập nhật lại (Update) danh sách server.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Ảnh minh họa (Luôn hiển thị sau trên Mobile) -->
+                        <div class="w-full md:w-1/3 order-2 md:order-2">
+                            <img src="image/reset-lien-ket.png" onerror="this.style.display='none'" class="w-full rounded-lg shadow-sm border border-gray-200 zoomable" alt="Reset Liên Kết" loading="lazy">
+                            <div class="img-placeholder hidden h-32 text-xs">📸 reset-lien-ket.png</div>
+                        </div>
+                    </div>
+
+                    <!-- Lỗi 3: Sai SNI -->
+                    <div class="flex flex-col md:flex-row gap-6 border-b border-gray-100 pb-8 last:border-0 last:pb-0 reveal">
+                        <div class="flex-1 order-1 md:order-1">
+                            <h3 class="font-bold text-lg text-red-600 mb-2 flex items-center gap-2">
+                                <span class="text-2xl">🔧</span> 3. Lỗi Sửa Sai SNI
+                            </h3>
+                            <p class="text-sm font-bold text-slate-700 mb-2">Dấu hiệu:</p>
+                            <p class="text-sm text-slate-600 mb-4">
+                                Không kết nối được mạng dù gói nền vẫn còn. Do bạn đã chỉnh sửa SNI lung tung trong phần cài đặt.
+                            </p>
+                            <div class="bg-green-50 p-3 rounded-lg border border-green-100">
+                                <p class="font-bold text-green-700 text-sm mb-1">✅ Cách Fix:</p>
+                                <ol class="list-decimal pl-5 text-sm text-green-800 space-y-1">
+                                    <li>Vào web > Mục <b>Tiện ích</b> > Chọn <b>Tùy chỉnh SNI</b>.</li>
+                                    <li>Xóa hết nội dung trong ô (để trống).</li>
+                                    <li>Bấm <b>Lưu</b>.</li>
+                                    <li>Vào App VPN > Cập nhật lại gói (Update Subscription).</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/3 order-2 md:order-2">
+                            <img src="image/tuy-chinh-sni.png" onerror="this.style.display='none'" class="w-full rounded-lg shadow-sm border border-gray-200 zoomable" alt="Tùy chỉnh SNI" loading="lazy">
+                            <div class="img-placeholder hidden h-32 text-xs">📸 tuy-chinh-sni.png</div>
+                        </div>
+                    </div>
+
+                    <!-- Fix Tối Thượng -->
+                    <div class="bg-slate-800 text-white p-4 rounded-xl flex items-center gap-4 shadow-lg reveal">
+                        <div class="text-3xl">✈️</div>
+                        <div>
+                            <h4 class="font-bold text-yellow-400 text-lg">Cách Fix "Tối Thượng"</h4>
+                            <p class="text-sm text-slate-300">Nếu đã thử mọi cách không được: Hãy bật/tắt chế độ máy bay, sau đó khởi động lại điện thoại.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+        
+        <!-- FOOTER -->
+        <footer class="mt-16 border-t border-gray-200 pt-8 pb-12 text-center reveal">
+            <div class="flex items-center justify-center gap-2 mb-4">
+                <img src="image/logo.png" class="w-8 h-8 rounded opacity-80">
+                <span class="font-bold text-slate-600">CSA DATA 5G</span>
+            </div>
+            <p class="text-slate-500 text-sm">© 2026 All rights reserved.</p>
+            <p class="text-slate-400 text-xs mt-2">Dịch vụ cung cấp giải pháp mạng riêng ảo (VPN) nhằm tối ưu hóa kết nối.</p>
+        </footer>
+
+    </main>
+
+    <!-- UI COMPONENTS -->
+    <div id="zoomOverlay" class="zoom-overlay" onclick="this.classList.remove('active')">
+        <img id="zoomImg" class="max-w-[95%] max-h-[90vh] rounded-lg shadow-2xl object-contain transition-transform" src="" alt="Zoom Image">
     </div>
-</section>
+    
+    <div id="toast">Đã sao chép nội dung!</div>
+    
+    <div id="backToTop" onclick="scrollToTop()">
+        <span class="material-icons-round">arrow_upward</span>
+    </div>
 
-<footer>
-© 2026 CloudVPS - Hosting & Cloud Solutions
-</footer>
+    <script>
+        // 1. Tab Logic
+        function openTab(evt, tabName) {
+            document.querySelectorAll("#step2 .tab-content").forEach(el => el.classList.add("hidden"));
+            document.querySelectorAll("#step2 .tab-btn").forEach(btn => btn.className = "tab-btn flex-1");
+            document.getElementById(tabName).classList.remove("hidden");
+            evt.currentTarget.className = "tab-btn active flex-1";
+        }
 
+        function openAppTab(evt, appName) {
+            document.querySelectorAll("#step3 .app-content").forEach(el => el.classList.add("hidden"));
+            document.querySelectorAll("#step3 .app-tab-btn").forEach(btn => btn.className = "app-tab-btn flex-1 py-2 px-4 rounded-md text-sm font-bold text-slate-500 hover:text-slate-700 transition whitespace-nowrap");
+            evt.currentTarget.className = "app-tab-btn active flex-1 py-2 px-4 rounded-md text-sm font-bold bg-white text-blue-600 shadow-sm transition whitespace-nowrap";
+            document.getElementById(appName).classList.remove("hidden");
+        }
+
+        // 2. Accordion Logic
+        function toggleAccordion(header) {
+            const card = header.closest('.app-card');
+            const content = card.querySelector('.card-content');
+            
+            card.classList.toggle('active');
+            
+            if (card.classList.contains('active')) {
+                content.style.maxHeight = content.scrollHeight + "px";
+            } else {
+                content.style.maxHeight = null;
+            }
+        }
+
+        // 3. Scroll Reveal Logic
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 100;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+        // Trigger once on load
+        reveal();
+
+        // 4. Back to Top Logic
+        const backToTopBtn = document.getElementById("backToTop");
+        window.onscroll = function() {
+            // Reveal logic call also happening on scroll
+            reveal(); 
+            
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                backToTopBtn.classList.add("show");
+            } else {
+                backToTopBtn.classList.remove("show");
+            }
+        };
+        function scrollToTop() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+
+        // 5. Copy Logic
+        function copyText(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                const toast = document.getElementById("toast");
+                toast.className = "show";
+                setTimeout(() => { toast.className = toast.className.replace("show", ""); }, 2500);
+            }).catch(err => {
+                console.error('Không thể copy', err);
+            });
+        }
+
+        // 6. Lightbox Logic
+        document.querySelectorAll('.zoomable').forEach(img => {
+            img.addEventListener('click', (e) => {
+                const overlay = document.getElementById('zoomOverlay');
+                const zoomImg = document.getElementById('zoomImg');
+                zoomImg.src = e.target.src;
+                overlay.classList.add('active');
+            });
+        });
+    </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"4634682c5a6248a6ac4d4caa115818bb","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
