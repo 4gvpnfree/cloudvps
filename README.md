@@ -6,7 +6,7 @@
     
     <!-- SEO Optimization -->
     <meta name="description" content="Hướng dẫn sử dụng CSA DATA 5G: Cách đăng ký gói nền TikTok Viettel/Vina/Mobi, Shadowrocket-V2rayTun-V2ray để truy cập mạng không giới hạn.">
-    <meta name="keywords" content="csa data 5g, data 4g không giới hạn, hack 4g viettel, gói nền tiktok, gold v2ray, shadowrocket, npv tunnel, vpn 4g tốc độ cao">
+    <meta name="keywords" content="csa data 5g, data 4g không giới hạn, hack 4g viettel, gói nền tiktok, v2raytun, shadowrocket, vpn 4g tốc độ cao">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://thongtin.yuichycsa.id.vn/CSADATA5G/">
     
@@ -488,7 +488,7 @@
                     <div class="flex gap-2 mb-6 bg-slate-100 p-1 rounded-lg overflow-x-auto">
                         <button class="app-tab-btn active flex-1 py-2 px-4 rounded-md text-sm font-bold bg-white text-blue-600 shadow-sm transition whitespace-nowrap" onclick="openAppTab(event, 'ios')">IOS (iPhone)</button>
                         <button class="app-tab-btn flex-1 py-2 px-4 rounded-md text-sm font-bold text-slate-500 hover:text-slate-700 transition whitespace-nowrap" onclick="openAppTab(event, 'android')">ANDROID</button>
-                        <button class="app-tab-btn flex-1 py-2 px-4 rounded-md text-sm font-bold text-slate-500 hover:text-slate-700 transition whitespace-nowrap" onclick="openAppTab(event, 'npv')">NPV (GAMING)</button>
+                       
                     </div>
 
                     <!-- --- TAB IOS --- -->
@@ -634,8 +634,7 @@
                         </div>
                     </div>
 
-                    
-            </section>
+           
 
             <!-- BƯỚC 4: FIX LỖI THƯỜNG GẶP -->
             <section id="step4" class="content-block bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden mb-12 reveal">
