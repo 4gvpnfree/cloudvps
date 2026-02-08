@@ -512,8 +512,8 @@
                                     <div>
                                         <h4 class="font-bold text-slate-800 mb-2">1. Tải ứng dụng</h4>
                                         <ul class="list-disc pl-5 space-y-2 text-slate-600 text-sm">
-                                            <li>Tải miễn phí tại <a href="https://idapple.csadata4g.me" target="_blank" class="text-blue-600 font-bold hover:underline">idapple.csadata4g.me</a></li>
-                                            <li>Hoặc thuê tải với giá 10k tại <a href="https://thuetaikhoanbanquyen.com" target="_blank" class="text-blue-600 font-bold hover:underline">thuetaikhoanbanquyen.com</a></li>
+                                            <li>Tải miễn phí tại <a href="https://ccbaohe.com/appleID/" target="_blank" class="text-blue-600 font-bold hover:underline">https://ccbaohe.com/appleID/</a></li>
+
                                         </ul>
                                     </div>
                                     <div>
