@@ -688,14 +688,7 @@
                         </div>
                     </div>
 
-                    <!-- Fix Tối Thượng -->
-                    <div class="bg-slate-800 text-white p-4 rounded-xl flex items-center gap-4 shadow-lg reveal">
-                        <div class="text-3xl">✈️</div>
-                        <div>
-                            <h4 class="font-bold text-yellow-400 text-lg">Cách Fix "Tối Thượng"</h4>
-                            <p class="text-sm text-slate-300">Nếu đã thử mọi cách không được: Hãy bật/tắt chế độ máy bay, sau đó khởi động lại điện thoại.</p>
-                        </div>
-                    </div>
+                    
 
                 </div>
             </section>
