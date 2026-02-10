@@ -466,7 +466,7 @@
                                 <div class="app-icon-box bg-green-50 text-green-600">📡</div>
                                 <div class="flex-1">
                                     <div class="flex items-center gap-2 mb-1">
-                                        <h4 class="font-bold text-slate-800 text-lg">V2Tun</h4>
+                                        <h4 class="font-bold text-slate-800 text-lg">Tun</h4>
                                         <span class="recommend-badge bg-gradient-to-r from-green-500 to-emerald-600">Khuyên Dùng</span>
                                     </div>
                                     <p class="text-xs text-slate-500">Mượt mà, dễ sử dụng nhất cho Android</p>
