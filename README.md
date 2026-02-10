@@ -254,18 +254,11 @@
                         <p><b>Bước 1:</b> Truy cập <a href="https://5gfuldata.com" target="_blank" class="text-blue-600 font-bold hover:underline">csadata5g.com</a> để đăng ký tài khoản.</p>
                         <p><b>Bước 2:</b> Nạp tiền và chọn gói cước phù hợp:</p>
                         <ul class="list-disc pl-5 space-y-2 mt-2">
-                            <li><b>Gói Basic:</b> Phù hợp cá nhân, sử dụng 1 thiết bị.</li>
-                            <li><b>Gói limited-Premium-Vĩnh viễn VN:</b> Phù hợp nhu cầu cao, chia sẻ nhiều thiết bị.</li>
+                           
+                            <li><b>Basic - Limited - Premium - Vĩnh Viễn VN:</b> Tùy chọn gói phù hợp với nhu cầu sử dụng.</li>
                         </ul>
                     </div>
 
-                    <div class="mt-6">
-                        <img src="image/web-mua-goi.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="w-full rounded-xl shadow-lg border border-gray-100 zoomable" alt="Giao diện mua gói" loading="lazy">
-                        <div class="img-placeholder hidden">
-                            <span class="text-4xl mb-2">📸</span>
-                            <span class="font-bold text-slate-700">Chưa có ảnh: web-mua-goi.png</span>
-                            <span class="text-xs text-slate-500">(Chụp màn hình danh sách gói cước trên web)</span>
-                        </div>
                     </div>
                 </div>
             </section>
