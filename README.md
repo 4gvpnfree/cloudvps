@@ -381,16 +381,7 @@
                                 </div>
                             </div>
 
-                            <!-- Ảnh minh họa -->
-                            <div class="bg-white border border-gray-200 rounded-2xl p-5 shadow-sm">
-                                <h4 class="font-bold text-lg text-slate-800 mb-2">Ảnh Minh Họa</h4>
-                                <p class="text-sm text-slate-600 mb-4">Xác nhận đăng ký thành công từ tổng đài.</p>
-                                
-                                <div class="rounded-lg overflow-hidden border border-gray-100">
-                                    <img src="image/dang-ky-nen-tiktok-mobi.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="w-full object-cover zoomable" alt="Gói TikTok MobiFone" loading="lazy">
-                                    <div class="img-placeholder hidden h-40">📸 Ảnh: dang-ky-nen-tiktok-mobi.png</div>
-                                </div>
-                            </div>
+
 
                         </div>
                     </div>
