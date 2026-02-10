@@ -523,7 +523,7 @@
                                     </div>
                                     <div>
                                         <h4 class="font-bold text-slate-800 mb-2">3. Cấu hình tối ưu</h4>
-                                        <div class="grid grid-cols-1 md:grid-cols-1 gap-1">
+                                        <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
                                             
                                             <img src="https://i.imgur.com/dAwsnXg.jpeg" class="rounded-lg border zoomable" loading="lazy">
                                             
