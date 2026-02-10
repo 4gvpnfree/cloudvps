@@ -383,29 +383,6 @@
                 </div>
             </section>
 
-            <!-- BƯỚC 3 -->
-            <section id="step3" class="content-block reveal">
-                <div class="p-6 border-b border-gray-100 flex items-center gap-4 bg-gradient-to-r from-gray-50 to-white">
-                    <div class="step-circle">3</div>
-                    <h2 class="text-2xl font-bold text-slate-800">Cài Đặt & Kết Nối</h2>
-                </div>
-                
-                <div class="p-6 md:p-8">
-                    <!-- Thông báo ShopData (MỚI - Đã chuyển lên trên) -->
-                    <div class="mb-6 bg-red-50 border border-red-200 rounded-xl p-4 shadow-sm">
-                        <div class="flex items-start gap-3">
-                            <div class="text-2xl flex-shrink-0">📢</div>
-                            <div>
-                                <h4 class="font-bold text-red-900 text-sm mb-1">Thông Báo: Ngừng Hỗ Trợ App ShopData</h4>
-                                <p class="text-xs text-red-800 mb-1">
-                                    Ứng dụng ShopData đã ngừng hoạt động. Tuy nhiên, gói cước cũ của bạn <b>vẫn hoạt động tốt</b> trên các app mới.
-                                </p>
-                                <p class="text-xs text-slate-600">
-                                    Vui lòng cài đặt <b>Shadowrocket</b> (iOS) hoặc <b>V2Tun</b> (Android) theo hướng dẫn bên dưới.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 
                     <!-- Tabs App -->
                     <div class="flex gap-2 mb-6 bg-slate-100 p-1 rounded-lg overflow-x-auto">
