@@ -702,18 +702,7 @@
             </section>
 
         </div>
-        
-        <!-- FOOTER -->
-        <footer class="mt-16 border-t border-gray-200 pt-8 pb-12 text-center reveal">
-            <div class="flex items-center justify-center gap-2 mb-4">
-                <img src="image/logo.png" class="w-8 h-8 rounded opacity-80">
-                <span class="font-bold text-slate-600">CSA DATA 5G</span>
-            </div>
-            <p class="text-slate-500 text-sm">© 2026 All rights reserved.</p>
-            <p class="text-slate-400 text-xs mt-2">Dịch vụ cung cấp giải pháp mạng riêng ảo (VPN) nhằm tối ưu hóa kết nối.</p>
-        </footer>
-
-    </main>
+    
 
     <!-- UI COMPONENTS -->
     <div id="zoomOverlay" class="zoom-overlay" onclick="this.classList.remove('active')">
