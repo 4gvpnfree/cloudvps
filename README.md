@@ -620,49 +620,7 @@
 
                 <div class="p-6 md:p-8 space-y-12">
                     
-                    <!-- Lỗi 1: Sập nền -->
-                    <div class="flex flex-col md:flex-row gap-6 border-b border-gray-100 pb-8 last:border-0 last:pb-0 reveal">
-                        <div class="flex-1">
-                            <h3 class="font-bold text-lg text-red-600 mb-2 flex items-center gap-2">
-                                <span class="text-2xl">📉</span> 1. Lỗi Sập Nền (Nền không lên)
-                            </h3>
-                            <p class="text-sm font-bold text-slate-700 mb-2">Dấu hiệu:</p>
-                            <p class="text-sm text-slate-600 mb-4 bg-slate-50 p-3 rounded-lg border border-slate-200">
-                                Bật 4G/5G (tắt VPN) vào TikTok lướt thử. Nếu thấy <b>giật, lag, đơ</b> hoặc không load được video => Bạn đã bị sập nền.
-                            </p>
-                            <div class="bg-green-50 p-3 rounded-lg border border-green-100">
-                                <span class="font-bold text-green-700 text-sm">✅ Cách Fix:</span>
-                                <span class="text-sm text-green-800">Gọi tổng đài nhà mạng để được hỗ trợ reset gói nền.</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Lỗi 2: Quá thiết bị -->
-                    <div class="flex flex-col md:flex-row gap-6 border-b border-gray-100 pb-8 last:border-0 last:pb-0 reveal">
-                        <!-- Nội dung text (Luôn hiển thị trước trên Mobile) -->
-                        <div class="flex-1 order-1 md:order-1">
-                            <h3 class="font-bold text-lg text-red-600 mb-2 flex items-center gap-2">
-                                <span class="text-2xl">📱</span> 2. Lỗi "Máy 1 dùng được, máy 2 không"
-                            </h3>
-                            <p class="text-sm font-bold text-slate-700 mb-2">Nguyên nhân:</p>
-                            <p class="text-sm text-slate-600 mb-4">
-                                Do gói cước của bạn giới hạn số lượng thiết bị sử dụng cùng lúc.
-                            </p>
-                            <div class="bg-green-50 p-3 rounded-lg border border-green-100 mb-4">
-                                <p class="font-bold text-green-700 text-sm mb-1">✅ Cách Fix:</p>
-                                <ul class="list-disc pl-5 text-sm text-green-800 space-y-1">
-                                    <li>Vào Web > Dashboard > Bấm nút <b>Reset liên kết</b> (như ảnh).</li>
-                                    <li>Sau đó vào lại App trên điện thoại > Cập nhật lại (Update) danh sách server.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Ảnh minh họa (Luôn hiển thị sau trên Mobile) -->
-                        <div class="w-full md:w-1/3 order-2 md:order-2">
-                            <img src="image/reset-lien-ket.png" onerror="this.style.display='none'" class="w-full rounded-lg shadow-sm border border-gray-200 zoomable" alt="Reset Liên Kết" loading="lazy">
-                            <div class="img-placeholder hidden h-32 text-xs">📸 reset-lien-ket.png</div>
-                        </div>
-                    </div>
-
+                    
                     <!-- Lỗi 3: Sai SNI -->
                     <div class="flex flex-col md:flex-row gap-6 border-b border-gray-100 pb-8 last:border-0 last:pb-0 reveal">
                         <div class="flex-1 order-1 md:order-1">
