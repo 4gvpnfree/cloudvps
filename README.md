@@ -8,12 +8,12 @@
     <meta name="description" content="Hướng dẫn sử dụng CSA DATA 5G: Cách đăng ký gói nền TikTok Viettel/Vina/Mobi, Shadowrocket-V2rayTun-V2ray để truy cập mạng không giới hạn.">
     <meta name="keywords" content="csa data 5g, data 4g không giới hạn, hack 4g viettel, gói nền tiktok, v2raytun, shadowrocket, vpn 4g tốc độ cao">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://thongtin.yuichycsa.id.vn/CSADATA5G/">
+    <link rel="canonical" href="https://5gfulldata.com/">
     
     <!-- Open Graph (Facebook/Zalo) -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://thongtin.yuichycsa.id.vn/CSADATA5G/">
-    <meta property="og:title" content="CSA DATA 5G - Giải Pháp Data Tốc Độ Cao">
+    <meta property="og:url" content="https://5gfuldata.com/">
+    <meta property="og:title" content="5G VPN FULL DATADATA - Giải Pháp Data Tốc Độ Cao">
     <meta property="og:description" content="Truy cập Internet không giới hạn dung lượng. Hỗ trợ đa nền tảng Android & iOS.">
     <meta property="og:image" content="image/banner.png">
 
