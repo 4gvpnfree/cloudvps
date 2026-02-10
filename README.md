@@ -351,17 +351,7 @@
                                 </div>
                             </div>
 
-                            <!-- Cách dự phòng -->
-                            <div class="bg-white border border-gray-200 rounded-2xl p-5 shadow-sm">
-                                <h4 class="font-bold text-lg text-slate-800 mb-2">Cách Dự Phòng (App My VNPT)</h4>
-                                <p class="text-sm text-slate-600 mb-4">Nếu không đăng ký được bằng tin nhắn, hãy thử đăng ký gói <b>T1</b> hoặc <b>GT1</b> trên ứng dụng My VNPT.</p>
-                                
-                                <div class="rounded-lg overflow-hidden border border-gray-100">
-                                    <img src="image/dang-ky-nen-tiktok-vina.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="w-full object-cover zoomable" alt="Gói TikTok VinaPhone" loading="lazy">
-                                    <div class="img-placeholder hidden h-40">📸 Ảnh: dang-ky-nen-tiktok-vina.png</div>
-                                </div>
-                                 <p class="text-xs text-slate-500 mt-2 text-center">Hình ảnh tham khảo trên App My VNPT</p>
-                            </div>
+                        
 
                         </div>
                     </div>
