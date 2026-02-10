@@ -680,8 +680,7 @@
                                     <li>Chọn SNI Việt Nam.</li>
                                     <li>Bấm <b>Lưu</b>.</li>
                                     <li>Về trang chủ website đồng bộ lại gói mạng về app là có thể sử dụng .</li>
-                                </ol>
-                            </div>
+                               
                         </div>
                         <div class="w-full md:w-1/3 order-2 md:order-2">
                             <img src="image/tuy-chinh-sni.png" onerror="this.style.display='none'" class="w-full rounded-lg shadow-sm border border-gray-200 zoomable" alt="Tùy chỉnh SNI" loading="lazy">
