@@ -676,10 +676,10 @@
                             <div class="bg-green-50 p-3 rounded-lg border border-green-100">
                                 <p class="font-bold text-green-700 text-sm mb-1">✅ Cách Fix:</p>
                                 <ol class="list-decimal pl-5 text-sm text-green-800 space-y-1">
-                                    <li>Vào web > Mục <b>Tiện ích</b> > Chọn <b>Tùy chỉnh SNI</b>.</li>
-                                    <li>Xóa hết nội dung trong ô (để trống).</li>
+                                    <li>Vào web > Mục <b>Cài đặt SNI</b> > Chọn SNI <b></li>
+                                    <li>Chọn SNI Việt Nam.</li>
                                     <li>Bấm <b>Lưu</b>.</li>
-                                    <li>Vào App VPN > Cập nhật lại gói (Update Subscription).</li>
+                                    <li>Về trang chủ website đồng bộ lại gói mạng về app là có thể sử dụng .</li>
                                 </ol>
                             </div>
                         </div>
