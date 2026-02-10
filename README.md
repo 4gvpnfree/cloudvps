@@ -195,11 +195,7 @@
           
         </section>
 
-        <div class="border-t border-gray-200 my-12 relative reveal">
-            <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#f8fafc] px-4 text-slate-400 font-medium text-sm uppercase tracking-widest">
-                Quy Trình Sử Dụng
-            </span>
-        </div>
+      
 
         <!-- NAVIGATION -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16 max-w-4xl mx-auto reveal">
