@@ -643,14 +643,7 @@
                             <img src="image/tuy-chinh-sni.png" onerror="this.style.display='none'" class="w-full rounded-lg shadow-sm border border-gray-200 zoomable" alt="Tùy chỉnh SNI" loading="lazy">
                             <div class="img-placeholder hidden h-32 text-xs">📸 tuy-chinh-sni.png</div>
                         </div>
-                    </div>
-
-                    
-
-                </div>
-            </section>
-
-        </div>
+                   
     
 
     <!-- UI COMPONENTS -->
