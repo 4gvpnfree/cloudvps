@@ -217,11 +217,7 @@
                     <h4 class="font-bold text-slate-800 text-sm">Cài App</h4>
                 </div>
             </a>
-            <a href="#step4" class="group bg-white border border-gray-200 p-4 rounded-xl flex flex-col items-center gap-2 hover:border-red-500 hover:shadow-md transition text-center">
-
-                   
-                </div>
-            </a>
+            
         </div>
 
         <!-- HƯỚNG DẪN CHI TIẾT -->
