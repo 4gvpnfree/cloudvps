@@ -458,33 +458,7 @@
                             </div>
                         </div>
 
-                        <!-- Card 2: Happ -->
-                        <div class="app-card">
-                            <div class="app-header" onclick="toggleAccordion(this)">
-                                <div class="app-icon-box bg-orange-50 text-orange-600">⚡</div>
-                                <div class="flex-1">
-                                    <h4 class="font-bold text-slate-800 text-lg">Happ Proxy</h4>
-                                    <p class="text-xs text-slate-500">Giải pháp thay thế mới</p>
-                                </div>
-                                <span class="material-icons-round rotate-icon text-3xl">expand_more</span>
-                            </div>
-                            <div class="card-content">
-                                <div class="p-6 space-y-6">
-                                    <div>
-                                        <h4 class="font-bold text-slate-800 mb-2">1. Tải ứng dụng</h4>
-                                        <a href="https://apps.apple.com/vn/app/happ-proxy-utility/id6504287215" target="_blank" class="text-blue-600 font-bold underline text-sm">Tải Happ trên App Store</a>
-                                    </div>
-                                    <div>
-                                        <h4 class="font-bold text-slate-800 mb-2">2. Sao chép liên kết Sub</h4>
-                                        <p class="text-sm text-slate-600 mb-2">Trên web CSA, chọn <b>Đồng bộ máy chủ</b> > <b>Sao chép liên kết đăng ký</b>.</p>
-                                        <img src="app/shadowrocket/sao-chep-lien-ket.jpg" onerror="this.style.display='none'" class="w-full rounded-lg shadow border zoomable" loading="lazy">
-                                    </div>
-                                    <div>
-                                        <h4 class="font-bold text-slate-800 mb-2">3. Đồng bộ vào App</h4>
-                                        <p class="text-sm text-slate-600 mb-2">Mở App Happ > Chọn <b>Clipboard</b> (hoặc Dán từ bộ nhớ tạm) > Cho phép dán > Xong.</p>
-                                        <img src="app/happ/happ-dong-bo-server.png" onerror="this.style.display='none'" class="w-full rounded-lg shadow border zoomable" loading="lazy">
-                                    </div>
-                                </div>
+                       
                             </div>
                         </div>
                     </div>
