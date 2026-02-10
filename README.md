@@ -168,7 +168,7 @@
                 <span class="font-extrabold text-xl text-slate-800 tracking-tight">CSA DATA 5G</span>
             </div>
             <div class="flex gap-3">
-                <a href="https://zalo.me/g/brghqr706" target="_blank" class="hidden sm:flex items-center gap-2 px-4 py-2 text-sm font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 rounded-full transition">
+                <a href="https://zalo.me/g/yvehya297" target="_blank" class="hidden sm:flex items-center gap-2 px-4 py-2 text-sm font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 rounded-full transition">
                     💬 Hỗ Trợ
                 </a>
                 <a href="https://5gfulldata.com" target="_blank" class="flex items-center gap-2 px-5 py-2 text-sm font-bold text-white bg-blue-600 hover:bg-blue-700 rounded-full shadow-lg hover:shadow-blue-500/30 transition transform hover:-translate-y-0.5">
@@ -316,28 +316,7 @@
 
                         <div class="grid md:grid-cols-2 gap-8">
                             
-                            <!-- Cách 1: T30H (Ưu tiên) -->
-                            <div class="bg-white border-2 border-green-500 rounded-2xl p-5 shadow-sm relative overflow-hidden">
-                                <div class="absolute top-0 right-0 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">RẺ NHẤT (30k)</div>
-                                <h4 class="font-bold text-lg text-slate-800 mb-2">Cách 1: Gói T30H(gói này tùy từng Sim nhé)</h4>
-                                <p class="text-sm text-slate-600 mb-4 h-10">Đăng ký qua Website Hub của Viettel. Ưu điểm là rẻ (30k/tháng) và không tự gia hạn.</p>
-                                
-                                <div class="space-y-2 mb-4">
-                                    <a href="https://hub.vietteltelecom.vn/vx/5g/" target="_blank" class="block w-full text-center bg-green-600 hover:bg-green-700 text-white font-bold py-2 rounded-lg transition">
-                                        👉 Truy Cập Link Đăng Ký
-                                    </a>
-                                </div>
-
-                                <div class="text-xs text-slate-600 space-y-1 mb-4 bg-slate-50 p-3 rounded-lg">
-                                    <p><b>B1:</b> Kéo xuống tìm mục <b>"NÂNG TẦM GIẢI TRÍ 5G"</b>.</p>
-                                    <p><b>B2:</b> Chọn gói <b>TikTok 30k</b>.</p>
-                                    <p><b>B3:</b> Nhập SĐT & OTP để đăng nhập.</p>
-                                    <p><b>B4:</b> Thanh toán qua tài khoản chính.</p>
-                                </div>
-
-                                <img src="image/dang-ky-nen-t30h-viettel.jpg" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="w-full rounded-lg border zoomable" alt="Gói T30H Viettel" loading="lazy">
-                                <div class="img-placeholder hidden h-32">📸 Ảnh: dang-ky-nen-t30h-viettel.jpg</div>
-                            </div>
+                        
 
                             <!-- Cách 2: Gói Soạn Tin -->
                             <div class="bg-white border border-gray-200 rounded-2xl p-5 shadow-sm relative">
