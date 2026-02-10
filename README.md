@@ -192,8 +192,7 @@
             <p class="text-lg md:text-xl text-slate-600 mb-10 max-w-3xl mx-auto leading-relaxed">
                 <b>5G FULL DATA</b> Giá rẻ-Uy tín-Chất lượng phù hớp với tất cả người dùng </p>
 
-           
-            </div>
+          
         </section>
 
         <div class="border-t border-gray-200 my-12 relative reveal">
