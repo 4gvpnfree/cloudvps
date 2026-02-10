@@ -526,8 +526,7 @@
                                         </ul>
                                         <div class="mt-2">
                                             <img src="app/v2raygold/nhap-sub-v2raygold.png" onerror="this.style.display='none'" class="w-full rounded-lg shadow border zoomable" loading="lazy">
-                                        </div>
-                                    </div>
+                                     
                                 </div>
                             </div>
                         </div>
