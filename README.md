@@ -192,26 +192,7 @@
             <p class="text-lg md:text-xl text-slate-600 mb-10 max-w-3xl mx-auto leading-relaxed">
                 <b>5G FULL DATA</b> Giá rẻ-Uy tín-Chất lượng phù hớp với tất cả người dùng </p>
 
-            <!-- 3 Lợi Ích Cốt Lõi (Đã căn giữa Mobile) -->
-            <div class="grid md:grid-cols-3 gap-6 text-left max-w-4xl mx-auto">
-                <!-- Card 1 -->
-                <div class="feature-card bg-white p-6 rounded-2xl shadow-sm flex flex-col items-center md:items-start text-center md:text-left reveal">
-                    <div class="w-14 h-14 bg-green-100 text-green-600 rounded-xl flex items-center justify-center text-3xl mb-4">💰</div>
-                    <h3 class="font-bold text-xl text-slate-800 mb-2">Siêu Tiết Kiệm</h3>
-                    <p class="text-slate-600 text-sm leading-6">Chỉ tốn <b>10k - 50k/tháng</b> cho nhà mạng. Rẻ gấp 10 lần so với mua gói Data truyền thống.</p>
-                </div>
-                <!-- Card 2 -->
-                <div class="feature-card bg-white p-6 rounded-2xl shadow-sm flex flex-col items-center md:items-start text-center md:text-left reveal">
-                    <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center text-3xl mb-4">🚀</div>
-                    <h3 class="font-bold text-xl text-slate-800 mb-2">Tốc Độ 5G</h3>
-                    <p class="text-slate-600 text-sm leading-6">Sử dụng hạ tầng Server riêng biệt, tối ưu băng thông cho Gaming, Streaming 4K mượt mà.</p>
-                </div>
-                <!-- Card 3 -->
-                <div class="feature-card bg-white p-6 rounded-2xl shadow-sm flex flex-col items-center md:items-start text-center md:text-left reveal">
-                    <div class="w-14 h-14 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center text-3xl mb-4">🛡️</div>
-                    <h3 class="font-bold text-xl text-slate-800 mb-2">Bảo Mật Cao</h3>
-                    <p class="text-slate-600 text-sm leading-6">Mã hóa kết nối Internet, ẩn danh tính và bảo vệ thông tin cá nhân trên mọi môi trường mạng.</p>
-                </div>
+           
             </div>
         </section>
 
