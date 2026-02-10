@@ -218,8 +218,7 @@
                 </div>
             </a>
             <a href="#step4" class="group bg-white border border-gray-200 p-4 rounded-xl flex flex-col items-center gap-2 hover:border-red-500 hover:shadow-md transition text-center">
-                <span class="w-8 h-8 rounded-full bg-red-50 text-red-600 font-bold flex items-center justify-center group-hover:bg-red-600 group-hover:text-white transition">4</span>
-                <div>
+
                    
                 </div>
             </a>
