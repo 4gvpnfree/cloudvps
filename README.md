@@ -351,8 +351,7 @@
                                     </div>
                                 </div>
 
-                                <img src="image/dang-ky-nen-tiktok-viettel.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="w-full rounded-lg border zoomable" alt="Gói TikTok Viettel" loading="lazy">
-                                <div class="img-placeholder hidden h-32">📸 Ảnh: dang-ky-nen-tiktok-viettel.png</div>
+                                
                             </div>
 
                         </div>
