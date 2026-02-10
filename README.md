@@ -310,17 +310,17 @@
                     <!-- Content Viettel -->
                     <div id="viettel" class="tab-content block animate-fade">
                         <div class="bg-red-50 p-4 rounded-xl border border-red-100 mb-6">
-                            <h3 class="font-bold text-red-700 flex items-center gap-2 mb-1">🔴 Sim Viettel - Có 2 Cách Đăng Ký</h3>
-                            <p class="text-sm text-red-600">Bạn có thể chọn 1 trong 2 cách bên dưới để đăng ký nền TikTok.</p>
+                            <h3 class="font-bold text-red-700 flex items-center gap-2 mb-1">🔴 Sim Viettel</h3>
+                            <p class="text-sm text-red-600">Bạn có thể chọn 1 trong 3 gói nền để đăng ký nền TikTok.</p>
                         </div>
 
-                        <div class="grid md:grid-cols-2 gap-8">
-                            
+                        <div class="grid md:grid-cols-2 gap-5">
+                        
                         
 
                             <!-- Cách 2: Gói Soạn Tin -->
                             <div class="bg-white border border-gray-200 rounded-2xl p-5 shadow-sm relative">
-                                <h4 class="font-bold text-lg text-slate-800 mb-2">Cách 2: Soạn Tin Nhắn</h4>
+                                <h4 class="font-bold text-lg text-slate-800 mb-2">Soạn Tin Nhắn ở tin </h4>
                                 <p class="text-sm text-slate-600 mb-4 h-10">Đăng ký gói chính gốc Viettel qua tin nhắn SMS. Nhanh gọn và tiện lợi.</p>
                                 
                                 <div class="space-y-3 mb-4">
