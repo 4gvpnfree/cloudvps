@@ -455,8 +455,7 @@
 
                        
                             </div>
-                        </div>
-                    </div>
+
 
                     <!-- --- TAB ANDROID --- -->
                     <div id="android" class="app-content hidden animate-fade space-y-4">
