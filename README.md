@@ -528,40 +528,6 @@
 
            
 
-            <!-- BƯỚC 4: FIX LỖI THƯỜNG GẶP -->
-            <section id="step4" class="content-block bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden mb-12 reveal">
-                <div class="p-6 border-b border-gray-100 flex items-center gap-4 bg-gradient-to-r from-gray-50 to-white">
-                    <div class="step-circle bg-red-600 text-white">4</div>
-                    <h2 class="text-2xl font-bold text-slate-800">Fix Lỗi Thường Gặp</h2>
-                </div>
-
-                <div class="p-6 md:p-8 space-y-12">
-                    
-                    
-                    <!-- Lỗi 3: Sai SNI -->
-                    <div class="flex flex-col md:flex-row gap-6 border-b border-gray-100 pb-8 last:border-0 last:pb-0 reveal">
-                        <div class="flex-1 order-1 md:order-1">
-                            <h3 class="font-bold text-lg text-red-600 mb-2 flex items-center gap-2">
-                                <span class="text-2xl">🔧</span> 3. Lỗi Sửa Sai SNI
-                            </h3>
-                            <p class="text-sm font-bold text-slate-700 mb-2">Dấu hiệu:</p>
-                            <p class="text-sm text-slate-600 mb-4">
-                                Không kết nối được mạng dù gói nền vẫn còn. Do bạn đã chỉnh sửa SNI lung tung trong phần cài đặt.
-                            </p>
-                            <div class="bg-green-50 p-3 rounded-lg border border-green-100">
-                                <p class="font-bold text-green-700 text-sm mb-1">✅ Cách Fix:</p>
-                                <ol class="list-decimal pl-5 text-sm text-green-800 space-y-1">
-                                    <li>Vào web > Mục <b>Cài đặt SNI</b> > Chọn SNI <b>
-                                    <li>Chọn SNI Việt Nam.</li>
-                                    <li>Bấm <b>Lưu</b>.</li>
-                                    <li>Về trang chủ website đồng bộ lại gói mạng về app là có thể sử dụng .</li>
-                         
-                        <div class="w-full md:w-1/3 order-2 md:order-2">
-                            <img src="image/tuy-chinh-sni.png" onerror="this.style.display='none'" class="w-full rounded-lg shadow-sm border border-gray-200 zoomable" alt="Tùy chỉnh SNI" loading="lazy">
-                            <div class="img-placeholder hidden h-32 text-xs">📸 tuy-chinh-sni.png</div>
-                        </div>
-                   
-    
 
     <!-- UI COMPONENTS -->
     <div id="zoomOverlay" class="zoom-overlay" onclick="this.classList.remove('active')">
