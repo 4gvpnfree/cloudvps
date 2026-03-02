@@ -1,603 +1,1489 @@
-<html lang="vi" class="scroll-smooth scroll-pt-24">
+<!DOCTYPE html>
+<html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hướng Dẫn 5G FULLDATA | Data Tốc Độ Cao Không Giới Hạn</title>
-    
-    <!-- SEO Optimization -->
-    <meta name="description" content="Hướng dẫn sử dụng CSA DATA 5G: Cách đăng ký gói nền TikTok Viettel/Vina/Mobi, Shadowrocket-V2rayTun-V2ray để truy cập mạng không giới hạn.">
-    <meta name="keywords" content="csa data 5g, data 4g không giới hạn, hack 4g viettel, gói nền tiktok, v2raytun, shadowrocket, vpn 4g tốc độ cao">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://5gfulldata.com/">
-    
-    <!-- Open Graph (Facebook/Zalo) -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://5gfuldata.com/">
-    <meta property="og:title" content="5G VPN FULL DATADATA - Giải Pháp Data Tốc Độ Cao">
-    <meta property="og:description" content="Truy cập Internet không giới hạn dung lượng. Hỗ trợ đa nền tảng Android & iOS.">
-    <meta property="og:image" content="image/banner.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buffet Bún Đậu 79K</title>
+  <meta name="description" content="Buffet Bún Đậu 79K — Ngon sạch, phục vụ nhanh. Đặt bàn ngay!">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="image/logo.png">
-    <link rel="shortcut icon" type="image/png" href="image/logo.png">
+  <style>
+    :root{
+      --bg:#0b1020;
+      --surface: rgba(255,255,255,.06);
+      --surface2: rgba(255,255,255,.09);
+      --line: rgba(255,255,255,.14);
+      --text: rgba(255,255,255,.92);
+      --muted: rgba(255,255,255,.70);
+      --shadow: 0 18px 55px rgba(0,0,0,.35);
+      --radius: 18px;
+      --max: 1120px;
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+      --a: #ffb703;     /* vàng ấm */
+      --b: #fb7185;     /* hồng đỏ */
+      --c: #22c55e;     /* xanh */
+    }
 
-    <!-- Google Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    *{ box-sizing: border-box; }
+    html{ scroll-behavior: smooth; }
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      color: var(--text);
+      background:
+        radial-gradient(1100px 700px at 10% 15%, rgba(255,183,3,.18), transparent 58%),
+        radial-gradient(900px 600px at 90% 15%, rgba(251,113,133,.18), transparent 58%),
+        radial-gradient(900px 600px at 60% 90%, rgba(34,197,94,.16), transparent 60%),
+        linear-gradient(180deg, #070a14 0%, var(--bg) 58%, #050712 100%);
+      min-height:100vh;
+      overflow-x:hidden;
+    }
+    a{ color: inherit; text-decoration:none; }
+    button,input,textarea{ font-family: inherit; }
 
-    <style>
-        :root {
-            --primary: #2563eb;
-            --secondary: #1e40af;
-            --accent: #f59e0b;
-        }
-        body { font-family: 'Outfit', sans-serif; background-color: #f8fafc; color: #334155; }
-        
-        /* Custom Styles */
-        .feature-card { transition: all 0.3s ease; border: 1px solid #f1f5f9; }
-        .feature-card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px -10px rgba(37, 99, 235, 0.2); border-color: #bfdbfe; }
-        
-        .step-circle { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.2rem; background: var(--primary); color: white; flex-shrink: 0; box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.3); }
-        
-        .content-block { background: white; border-radius: 20px; box-shadow: 0 4px 20px -5px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; margin-bottom: 40px; overflow: hidden; }
-        
-        .tab-btn { padding: 14px 24px; font-weight: 600; color: #64748b; border-bottom: 2px solid transparent; transition: all 0.2s; }
-        .tab-btn:hover { color: var(--primary); background: #f8fafc; }
-        .tab-btn.active { color: var(--primary); border-bottom-color: var(--primary); background: #eff6ff; }
-        
-        /* Syntax Box */
-        .syntax-box { background: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid var(--primary); padding: 12px; margin: 8px 0; font-family: monospace; font-size: 1em; color: #0f172a; display: flex; align-items: center; justify-content: space-between; border-radius: 6px; cursor: pointer; transition: background 0.2s; position: relative; }
-        .syntax-box:hover { background: #eff6ff; }
-        .syntax-box:active { transform: scale(0.99); }
-        .syntax-box::after { content: '📋 Chạm để chép'; font-size: 0.7em; color: var(--primary); opacity: 0.7; font-family: 'Outfit', sans-serif; font-weight: bold; }
-        
-        .zoomable { cursor: zoom-in; transition: transform 0.2s; }
-        .zoomable:hover { transform: scale(1.02); }
-        .zoom-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.95); display: none; align-items: center; justify-content: center; z-index: 100; backdrop-filter: blur(5px); }
-        .zoom-overlay.active { display: flex; animation: fadeIn 0.25s ease-out; }
-        
-        .img-placeholder { width: 100%; height: 220px; background: #f1f5f9; border: 2px dashed #cbd5e1; display: flex; align-items: center; justify-content: center; color: #64748b; border-radius: 12px; font-size: 0.9em; flex-direction: column; gap: 8px; transition: all 0.2s; }
-        .img-placeholder:hover { border-color: var(--primary); background: #eff6ff; color: var(--primary); }
+    /* Header */
+    header{
+      position: sticky;
+      top:0;
+      z-index: 1000;
+      backdrop-filter: blur(14px);
+      background: rgba(11,16,32,.60);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav{
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 14px 16px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 12px;
+    }
+    .brand{
+      display:flex;
+      align-items:center;
+      gap: 10px;
+      font-weight: 900;
+      letter-spacing: .2px;
+    }
 
-        /* Modern App Card Accordion Styles */
-        .app-card { 
-            background: white; 
-            border: 1px solid #e2e8f0; 
-            border-radius: 16px; 
-            overflow: hidden; 
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            position: relative;
-        }
-        .app-card:hover { border-color: #cbd5e1; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
-        
-        .app-card.active { border-color: var(--primary); box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.15); }
-        .app-card.active .app-header { background-color: #fff; }
-        
-        .app-header { 
-            padding: 16px; 
-            display: flex; 
-            align-items: center; 
-            cursor: pointer; 
-            background: #fff;
-            position: relative;
-            z-index: 10;
-        }
-        
-        .app-icon-box {
-            width: 56px; height: 56px; 
-            border-radius: 14px; 
-            display: flex; align-items: center; justify-content: center; 
-            font-size: 28px; 
-            flex-shrink: 0;
-            margin-right: 16px;
-            transition: transform 0.3s;
-        }
-        
-        .app-card:hover .app-icon-box { transform: scale(1.05); }
+    /* Logo text */
+    .logo-brand{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      font-weight:900;
+      font-size:20px;
+      letter-spacing:-0.5px;
+    }
+    .brand-text{
+      background: linear-gradient(90deg,#ffffff,#dbeafe);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .brand-price{
+      padding:4px 10px;
+      border-radius:8px;
+      background: linear-gradient(135deg,#fbbf24,#fb7185);
+      color:white;
+      font-weight:900;
+      box-shadow:0 6px 18px rgba(251,113,133,.4);
+    }
 
-        .card-content { 
-            max-height: 0; 
-            overflow: hidden; 
-            background-color: #f8fafc;
-            border-top: 1px solid #f1f5f9;
-            transition: max-height 0.4s cubic-bezier(0, 1, 0, 1);
-            opacity: 0;
-        }
-        
-        .app-card.active .card-content { 
-            transition: max-height 0.5s ease-in-out, opacity 0.3s ease-in;
-            opacity: 1;
-        }
+    nav[aria-label="Điều hướng"]{
+      display:flex;
+      align-items:center;
+      gap: 12px;
+      color: var(--muted);
+      font-weight: 800;
+      font-size: 14px;
+    }
+    nav a{
+      padding: 8px 10px;
+      border-radius: 12px;
+      transition: background .2s, color .2s;
+    }
+    nav a:hover{ background: rgba(255,255,255,.06); color: rgba(255,255,255,.92); }
 
-        .rotate-icon { transition: transform 0.3s; color: #94a3b8; }
-        .app-card.active .rotate-icon { transform: rotate(180deg); color: var(--primary); }
+    .actions{ display:flex; align-items:center; gap: 10px; }
 
-        /* Badge Style */
-        .recommend-badge {
-            background: linear-gradient(135deg, #2563eb, #1d4ed8);
-            color: white;
-            font-size: 0.7rem;
-            font-weight: 700;
-            padding: 4px 10px;
-            border-radius: 20px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            box-shadow: 0 2px 5px rgba(37, 99, 235, 0.3);
-            animation: pulse-badge 2s infinite;
-        }
+    .btn{
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.04);
+      color: rgba(255,255,255,.92);
+      padding: 10px 12px;
+      border-radius: 14px;
+      font-weight: 900;
+      font-size: 14px;
+      cursor:pointer;
+      transition: transform .15s, background .2s, border-color .2s, box-shadow .2s;
+      display:inline-flex;
+      align-items:center;
+      gap: 8px;
+    }
+    .btn:hover{
+      background: rgba(255,255,255,.07);
+      border-color: rgba(255,255,255,.20);
+      transform: translateY(-1px);
+    }
+    .btn.primary{
+      border: none;
+      background: linear-gradient(135deg, var(--a), var(--b));
+      box-shadow: 0 18px 55px rgba(251,113,133,.12);
+    }
+    .btn.primary:hover{ box-shadow: 0 22px 65px rgba(251,113,133,.16); }
 
-        /* Scroll Reveal Animation */
-        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease-out; }
-        .reveal.active { opacity: 1; transform: translateY(0); }
+    .hamburger{
+      display:none;
+      width: 42px;
+      height: 42px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.04);
+      cursor:pointer;
+      align-items:center;
+      justify-content:center;
+      gap: 5px;
+      flex-direction: column;
+    }
+    .hamburger span{
+      width: 18px; height: 2px;
+      background: rgba(255,255,255,.85);
+      border-radius: 2px;
+    }
 
-        /* Back to top */
-        #backToTop {
-            position: fixed; bottom: 20px; right: 20px;
-            background: var(--primary); color: white;
-            width: 45px; height: 45px; border-radius: 50%;
-            display: flex; align-items: center; justify-content: center;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2); cursor: pointer;
-            opacity: 0; visibility: hidden; transition: all 0.3s; z-index: 90;
-        }
-        #backToTop.show { opacity: 1; visibility: visible; }
-        #backToTop:hover { transform: translateY(-3px); box-shadow: 0 6px 15px rgba(37, 99, 235, 0.4); }
+    /* Drawer */
+    .drawer{
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,.55);
+      display:none;
+      z-index: 2000;
+    }
+    .drawer.open{ display:block; }
+    .panel{
+      position:absolute;
+      right: 12px; top: 12px;
+      width: min(92vw, 360px);
+      background: rgba(15,20,40,.92);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      padding: 14px;
+      backdrop-filter: blur(16px);
+    }
+    .panel .row{
+      display:flex; align-items:center; justify-content:space-between;
+      gap: 10px; margin-bottom: 10px;
+    }
+    .panel a{
+      display:block;
+      padding: 12px 12px;
+      border-radius: 14px;
+      color: rgba(255,255,255,.90);
+      font-weight: 900;
+      border: 1px solid transparent;
+    }
+    .panel a:hover{
+      background: rgba(255,255,255,.06);
+      border-color: rgba(255,255,255,.12);
+    }
+    .logo-nav span{
+      background: linear-gradient(90deg,#fbbf24,#fb7185);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
 
-        /* Keyframes */
-        @keyframes pulse-badge { 0% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.4); } 70% { box-shadow: 0 0 0 6px rgba(37, 99, 235, 0); } 100% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0); } }
-        @keyframes fadeIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
-        @keyframes fadein { from {bottom: 0; opacity: 0;} to {bottom: 30px; opacity: 1;} }
-        @keyframes fadeout { from {bottom: 30px; opacity: 1;} to {bottom: 0; opacity: 0;} }
+    /* Layout */
+    .wrap{ max-width: var(--max); margin: 0 auto; padding: 0 16px; }
+    .section{ padding: 60px 0; }
+    .grid{ display:grid; gap: 16px; }
 
-        /* Toast Notification */
-        #toast { visibility: hidden; min-width: 250px; background-color: #333; color: #fff; text-align: center; border-radius: 50px; padding: 12px; position: fixed; z-index: 999; left: 50%; bottom: 30px; transform: translateX(-50%); font-size: 14px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
-        #toast.show { visibility: visible; animation: fadein 0.5s, fadeout 0.5s 2.5s; }
-    </style>
+    .reveal{
+      opacity:0;
+      transform: translateY(10px);
+      transition: opacity .55s ease, transform .55s ease;
+    }
+    .reveal.show{ opacity:1; transform: translateY(0); }
+
+    /* Hero */
+    .hero{ padding: 58px 0 30px; }
+    .hero-grid{
+      display:grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 18px;
+      align-items:center;
+    }
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      gap: 10px;
+      padding: 8px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.04);
+      color: rgba(255,255,255,.82);
+      font-weight: 900;
+      font-size: 13px;
+    }
+    .dot{
+      width: 9px; height: 9px;
+      border-radius: 99px;
+      background: var(--c);
+      box-shadow: 0 0 0 6px rgba(34,197,94,.16);
+    }
+
+    h1{
+      font-size: 45px;
+      font-weight: 800;
+      line-height: 1.05;
+      letter-spacing: -1px;
+      background: linear-gradient(90deg,#ffffff,#e0e7ff,#c7d2fe);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 10px 40px rgba(59,130,246,0.25);
+      margin: 14px 0 10px;
+    }
+
+    .lead{
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.75;
+      max-width: 56ch;
+    }
+    .hero-actions{ display:flex; gap: 10px; flex-wrap: wrap; }
+    .mini{ margin-top: 12px; color: rgba(255,255,255,.62); font-size: 13px; }
+
+    /* Rating badge */
+    .rating-badge{
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      margin-top: 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.10);
+      backdrop-filter: blur(10px);
+      color: rgba(255,255,255,.92);
+      font-size: 14px;
+    }
+    .rating-badge b{ color:#fff; }
+    .rating-badge .star{
+      width: 22px;
+      height: 22px;
+      display: grid;
+      place-items: center;
+      border-radius: 999px;
+      background: rgba(251,191,36,.16);
+    }
+    .rating-badge .dot{
+      opacity: .6;
+      box-shadow: none;
+      background: transparent;
+      width: auto;
+      height: auto;
+    }
+
+    /* Hero contact pills */
+    .hero-contact{
+      display:flex;
+      align-items:center;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-top:16px;
+    }
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      padding:8px 14px;
+      border-radius:999px;
+      background: rgba(255,255,255,.07);
+      border:1px solid rgba(255,255,255,.12);
+      color:#fff;
+      text-decoration:none;
+      font-size:13px;
+      white-space:nowrap;
+      transition:all .2s ease;
+    }
+    .pill:hover{
+      background: rgba(255,255,255,.12);
+      transform: translateY(-1px);
+    }
+
+    /* Hero right card */
+.hero-card{
+  border-radius: 22px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+  box-shadow: var(--shadow);
+  overflow:hidden;
+  position: relative;
+  min-height: 320px;
+
+  /* ✅ thêm để hover mượt */
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease, background .25s ease;
+}
+
+/* ✅ Hover sáng lên */
+.hero-card:hover{
+  transform: translateY(-8px);
+  border-color: rgba(255,158,11,.55);
+  background: linear-gradient(180deg, rgba(255,255,255,.09), rgba(255,255,255,.04));
+  box-shadow:
+    0 18px 50px rgba(0,0,0,.45),
+    0 0 36px rgba(255,158,11,.28),
+    0 0 80px rgba(255,0,150,.12);
+}
+
+/* ✅ KPI sáng lên nhẹ khi hover (tuỳ chọn, đẹp hơn) */
+.hero-card:hover .kpi{
+  color: rgba(255,158,11,1);
+  transition: color .25s ease;
+}
+.hero-card .card{
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.hero-card .card:hover{
+  transform: translateY(-4px);
+  border-color: rgba(255,158,11,.35);
+  box-shadow: 0 12px 30px rgba(0,0,0,.35), 0 0 22px rgba(255,158,11,.18);
+}
+.hero-top{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 14px 16px;
+  border-bottom: 1px solid rgba(255,255,255,.12);
+  color: rgba(255,255,255,.78);
+  font-weight: 900;
+
+  /* ✅ FIX lỗi chữ bị trôi/đè viền */
+  height: 44px;
+  box-sizing: border-box;
+}
+
+.hero-top > div:last-child{
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+    /* ✅ đổi 3 chấm thành win-dot để KHÔNG đụng .pill */
+    .win-dot{ width: 9px; height: 9px; border-radius: 99px; background: rgba(255,255,255,.18); }
+    .win-dot:nth-child(1){ background: rgba(239,68,68,.85); }
+    .win-dot:nth-child(2){ background: rgba(245,158,11,.90); }
+    .win-dot:nth-child(3){ background: rgba(34,197,94,.90); }
+
+    .hero-body{ padding: 14px; display:grid; gap: 12px; }
+    .card{
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.05);
+      border-radius: 16px;
+      padding: 14px;
+      box-shadow: 0 14px 35px rgba(0,0,0,.18);
+    }
+    .kpi{
+      margin:0;
+      font-weight: 950;
+      font-size: 26px;
+      letter-spacing: -0.5px;
+    }
+    .sub{ margin: 6px 0 0; color: rgba(255,255,255,.66); font-size: 13px; line-height:1.55; }
+    .row2{ display:grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
+    /* Section title */
+    .title{
+      display:flex;
+      align-items:flex-end;
+      justify-content:space-between;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    .title h2{ margin:0; font-size: 26px; letter-spacing: -0.4px; }
+    .title p{ margin:0; color: var(--muted); font-size: 14px; }
+
+    /* Specials */
+    .specials{ grid-template-columns: repeat(3, 1fr); }
+    .food{
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.05);
+      border-radius: 18px;
+      overflow:hidden;
+      transition: transform .2s, border-color .2s, background .2s;
+    }
+    .food:hover{
+      transform: translateY(-2px);
+      border-color: rgba(255,255,255,.20);
+      background: rgba(255,255,255,.07);
+    }
+    .food .img{
+      height: 150px;
+      background:
+        radial-gradient(220px 140px at 25% 30%, rgba(255,183,3,.45), transparent 60%),
+        radial-gradient(260px 160px at 70% 30%, rgba(251,113,133,.40), transparent 60%),
+        linear-gradient(135deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+      border-bottom: 1px solid rgba(255,255,255,.10);
+    }
+    .food .body{ padding: 14px; }
+    .food h3{ margin:0 0 6px; font-size: 16px; }
+    .food p{ margin:0; color: var(--muted); font-size: 14px; line-height:1.6; }
+    .chip{
+      display:inline-flex;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 950;
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.12);
+      color: rgba(255,255,255,.84);
+      margin-top: 10px;
+    }
+
+    /* Pricing */
+    .pricing{ grid-template-columns: repeat(3, 1fr); }
+    .price{
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.05);
+      border-radius: 18px;
+      padding: 18px;
+      position:relative;
+      overflow:hidden;
+    }
+    .price.highlight{
+      background: linear-gradient(180deg, rgba(255,183,3,.14), rgba(251,113,133,.08));
+      border-color: rgba(255,183,3,.35);
+      box-shadow: 0 22px 70px rgba(255,183,3,.12);
+    }
+    .tag{
+      display:inline-flex;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 950;
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.12);
+      color: rgba(255,255,255,.84);
+    }
+    .amount{
+      font-size: 38px;
+      font-weight: 980;
+      letter-spacing:-1px;
+      margin: 10px 0 6px;
+    }
+    .amount span{ font-size: 13px; color: rgba(255,255,255,.62); font-weight: 900; }
+    .list{ margin: 12px 0 0; padding:0; list-style:none; display:grid; gap: 8px; }
+    .list li{
+      display:flex; gap: 10px; align-items:flex-start;
+      color: rgba(255,255,255,.74);
+      font-size: 14px;
+    }
+    .check{
+      width: 18px; height: 18px; border-radius: 8px;
+      background: rgba(34,197,94,.18);
+      border: 1px solid rgba(34,197,94,.35);
+      display:grid; place-items:center;
+      flex:0 0 auto;
+      margin-top: 1px;
+      font-size: 12px;
+    }
+    .price .btn{ width:100%; margin-top: 14px; justify-content:center; }
+
+    /* Info */
+    .info{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      align-items:start;
+    }
+    .map{
+      border-radius: 18px;
+      overflow:hidden;
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.05);
+      min-height: 260px;
+    }
+    iframe{ width:100%; height: 260px; border:0; }
+
+    /* Contact */
+    .contact{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .form{
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.05);
+      border-radius: 18px;
+      padding: 16px;
+    }
+    .field{ display:grid; gap: 6px; margin-bottom: 12px; }
+    label{ font-size: 13px; font-weight: 950; color: rgba(255,255,255,.80); }
+    input, textarea{
+      width:100%;
+      padding: 12px 12px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(0,0,0,.18);
+      color: rgba(255,255,255,.90);
+      outline:none;
+    }
+    textarea{ min-height: 110px; resize: vertical; }
+    input:focus, textarea:focus{
+      border-color: rgba(255,183,3,.55);
+      box-shadow: 0 0 0 4px rgba(255,183,3,.18);
+    }
+    .note{ color: rgba(255,255,255,.62); font-size: 13px; line-height: 1.6; }
+
+    footer{
+      border-top: 1px solid rgba(255,255,255,.12);
+      padding: 22px 0;
+      color: rgba(255,255,255,.62);
+      font-size: 13px;
+    }
+    .foot{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    /* HERO brand buttons */
+    .hero-btn{
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 14px;
+      border-radius: 14px;
+      font-weight: 900;
+      border: 1px solid rgba(255,255,255,.14);
+    }
+    .brand-icon{
+      width: 18px;
+      height: 18px;
+      flex: 0 0 auto;
+    }
+    .zalo-hero{
+      background: #0068ff;
+      border-color: rgba(255,255,255,.10);
+      color: #fff;
+    }
+    .zalo-hero:hover{ filter: brightness(1.05); }
+
+    .fb-hero{
+      background: #1877f2;
+      border-color: rgba(255,255,255,.10);
+      color: #fff;
+    }
+    .fb-hero:hover{ filter: brightness(1.05); }
+
+    /* Floating actions (CHỈ 1 BLOCK) */
+    .float{
+      position: fixed;
+      right: 16px;
+      bottom: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      z-index: 9999;
+    }
+    .fab{
+      width: 52px;
+      height: 52px;
+      border-radius: 18px;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(255,255,255,.14);
+      box-shadow: 0 14px 40px rgba(0,0,0,.25);
+      backdrop-filter: blur(10px);
+      transition: transform .15s, filter .2s;
+    }
+    .fab:hover{
+      transform: translateY(-4px);
+      filter: brightness(1.06);
+    }
+
+    .fab.call-btn{ background:#22c55e !important; }
+    .fab.zalo-btn{ background:#0068ff !important; }
+    .fab.messenger-btn{ background: linear-gradient(135deg, #00b2ff, #006aff) !important; }
+    .fab.fb-btn{ background:#1877f2 !important; }
+
+    .zalo-btn img{
+      width: 26px;
+      height: 26px;
+      object-fit: contain;
+    }
+
+    /* Responsive */
+    @media (max-width: 980px){
+      .hero-grid{ grid-template-columns: 1fr; }
+      .specials{ grid-template-columns: 1fr; }
+      .pricing{ grid-template-columns: 1fr; }
+      .info{ grid-template-columns: 1fr; }
+      .contact{ grid-template-columns: 1fr; }
+    }
+    @media (max-width: 760px){
+      nav[aria-label="Điều hướng"], .actions .btn.primary{ display:none; }
+      .hamburger{ display:flex; }
+    }
+        /* ============================= */
+/* 🔥 GLOW DÙNG CHUNG TOÀN WEB  */
+/* ============================= */
+
+.glow{
+  position: relative;
+  transition: transform .25s ease,
+              box-shadow .25s ease,
+              border-color .25s ease,
+              filter .25s ease;
+  will-change: transform;
+}
+
+/* Hover phát sáng */
+.glow:hover{
+  transform: translateY(-6px);
+  border-color: rgba(255,158,11,.55) !important;
+  box-shadow:
+    0 18px 50px rgba(0,0,0,.45),
+    0 0 36px rgba(255,158,11,.25),
+    0 0 80px rgba(255,0,150,.12) !important;
+  filter: brightness(1.04);
+}
+
+/* Nếu glow bị cắt bởi overflow của cha */
+.glow{ overflow: visible; }
+.hero-card, .card, .food, .price, .form, .map{
+  border-color: rgba(255,255,255,.12);
+}
+.hero-card:hover, .card:hover, .food:hover, .price:hover, .form:hover, .map:hover{
+  box-shadow:
+    0 18px 50px rgba(0,0,0,.45),
+    0 0 36px rgba(255,158,11,.22),
+    0 0 80px rgba(255,0,150,.10);
+  border-color: rgba(255,158,11,.45);
+}
+/* ============================= */
+/* 🔥 GLOW DÙNG CHUNG TOÀN WEB  */
+/* ============================= */
+
+/* wrapper glow: chịu trách nhiệm NỔI + ĐỔ BÓNG */
+.glow{
+  position: relative;
+  display: block;
+  border-radius: inherit; /* ăn theo bo góc của card bên trong */
+  transition: transform .25s ease, box-shadow .25s ease, filter .25s ease;
+  will-change: transform;
+}
+
+/* khi hover: NỔI LÊN + glow */
+.glow:hover{
+  transform: translate3d(0,-10px,0);
+  z-index: 50; /* nổi lên trên các card khác */
+  filter: brightness(1.04);
+  box-shadow:
+    0 18px 50px rgba(0,0,0,.45),
+    0 0 36px rgba(255,158,11,.25),
+    0 0 80px rgba(255,0,150,.12);
+}
+
+/* chữ sáng hơn (tuỳ chọn) */
+.glow:hover .kpi{
+  background: linear-gradient(90deg,#ffb703,#fb7185,#ffb703);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glowMove 2s linear infinite;
+}
+@keyframes glowMove{
+  to { background-position: 200% center; }
+}
+/* ============================= */
+/* ✨ Hover đổi màu chữ trong card */
+/* ============================= */
+
+/* 1) Món nổi bật (food) */
+.food{ transition: transform .2s, border-color .2s, background .2s; }
+.food h3, .food p, .food .chip{ transition: color .25s ease, opacity .25s ease, filter .25s ease; }
+
+.food:hover h3{
+  color: #ffb703;                 /* vàng */
+  text-shadow: 0 0 18px rgba(255,183,3,.25);
+}
+.food:hover p{
+  color: rgba(255,255,255,.92);   /* sáng hơn */
+}
+.food:hover .chip{
+  color: #fff;
+  border-color: rgba(255,183,3,.45);
+  background: rgba(255,183,3,.12);
+}
+
+/* 2) Giá buffet (price) */
+.price h3, .price .amount, .price li, .price .tag{
+  transition: color .25s ease, text-shadow .25s ease, border-color .25s ease, background .25s ease;
+}
+
+.price:hover h3,
+.price:hover .amount{
+  color: #ffb703;
+  text-shadow: 0 0 20px rgba(255,183,3,.22);
+}
+.price:hover li{
+  color: rgba(255,255,255,.92);
+}
+.price:hover .tag{
+  border-color: rgba(255,183,3,.45);
+  background: rgba(255,183,3,.12);
+  color: #fff;
+}
+
+/* 3) Card thường (áp dụng cho các .card ngoài hero) */
+.card p, .card .sub, .card b{ transition: color .25s ease, text-shadow .25s ease; }
+.card:hover p:first-child{
+  color: #ffb703;
+  text-shadow: 0 0 18px rgba(255,183,3,.22);
+}
+.card:hover .sub{ color: rgba(255,255,255,.92); }
+/* ============================= */
+/* ✨ Hover đẹp cho khu Đặt bàn (#contact) */
+/* ============================= */
+
+#contact .card{
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease, filter .25s ease;
+  position: relative;
+}
+
+#contact .card p,
+#contact .card b{
+  transition: color .25s ease, text-shadow .25s ease;
+}
+
+/* Hover card nổi + viền vàng + glow */
+#contact .card:hover{
+  transform: translateY(-8px);
+  border-color: rgba(255,183,3,.45);
+  box-shadow:
+    0 18px 50px rgba(0,0,0,.45),
+    0 0 36px rgba(255,158,11,.22),
+    0 0 80px rgba(255,0,150,.10);
+  filter: brightness(1.04);
+  z-index: 5;
+}
+
+/* Dòng tiêu đề (p đầu tiên) đổi vàng + phát sáng */
+#contact .card:hover p:first-child{
+  color: #ffb703;
+  text-shadow: 0 0 18px rgba(255,183,3,.28);
+}
+
+/* Nội dung sáng hơn */
+#contact .card:hover p,
+#contact .card:hover b{
+  color: rgba(255,255,255,.95);
+}
+/* ===== Mobile: giả lập hover khi chạm ===== */
+
+/* Card: chạm (active) + khi có focus bên trong (focus-within) */
+@media (hover: none) and (pointer: coarse){
+  #contact .card:active,
+  #contact .card:focus-within{
+    transform: translateY(-8px);
+    border-color: rgba(255,183,3,.45);
+    box-shadow:
+      0 18px 50px rgba(0,0,0,.45),
+      0 0 36px rgba(255,158,11,.22),
+      0 0 80px rgba(255,0,150,.10);
+    filter: brightness(1.04);
+    z-index: 5;
+  }
+
+  #contact .card:active p:first-child,
+  #contact .card:focus-within p:first-child{
+    color: #ffb703;
+    text-shadow: 0 0 18px rgba(255,183,3,.28);
+  }
+
+  #contact .card:active p,
+  #contact .card:focus-within p,
+  #contact .card:active b,
+  #contact .card:focus-within b{
+    color: rgba(255,255,255,.95);
+  }
+}
+
+/* Cho card nhận focus khi bấm (tốt cho mobile + accessibility) */
+#contact .card{ outline: none; }
+#contact .card{ -webkit-tap-highlight-color: transparent; }
+/* ✅ GLOW dùng chung: PC hover + Mobile tap (active/focus) */
+.glow{
+  position: relative;
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease, filter .25s ease;
+  will-change: transform;
+}
+
+/* PC có hover thật */
+@media (hover:hover){
+  .glow:hover{ 
+    transform: translateY(-10px);
+    z-index: 5;
+    border-color: rgba(255,158,11,.45);
+    box-shadow:
+      0 18px 50px rgba(0,0,0,.45),
+      0 0 36px rgba(255,158,11,.22),
+      0 0 80px rgba(255,0,150,.10);
+    filter: brightness(1.04);
+  }
+}
+
+/* Mobile: chạm/nhấn => active (nhấn giữ) + focus-within (giữ hiệu ứng) */
+@media (hover:none){
+  .glow:active,
+  .glow:focus-within,
+  .glow.is-active{
+    transform: translateY(-10px);
+    z-index: 5;
+    border-color: rgba(255,158,11,.45);
+    box-shadow:
+      0 18px 50px rgba(0,0,0,.45),
+      0 0 36px rgba(255,158,11,.22),
+      0 0 80px rgba(255,0,150,.10);
+    filter: brightness(1.04);
+  }
+}
+
+/* ✅ Hover/tap đổi màu chữ (áp cho tiêu đề + số + text phụ) */
+.glow:is(:hover,:active,:focus-within,.is-active) h3,
+.glow:is(:hover,:active,:focus-within,.is-active) .kpi,
+.glow:is(:hover,:active,:focus-within,.is-active) p,
+.glow:is(:hover,:active,:focus-within,.is-active) .sub{
+  color: rgba(255,183,3,1);
+  text-shadow: 0 0 18px rgba(255,183,3,.28);
+}
+
+/* ✅ Nếu bạn muốn KPI chạy gradient như bạn thích */
+.glow:is(:hover,:active,:focus-within,.is-active) .kpi{
+  background: linear-gradient(90deg,#ffb703,#fb7185,#ffb703);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glowMove 2s linear infinite;
+}
+@keyframes glowMove{ to { background-position: 200% center; } }
+
+/* ✅ Tránh bị "cắt glow" do overflow của cha */
+.hero-card{ overflow: visible; } /* đừng để hidden nếu muốn glow tràn ra */
+  </style>
 </head>
+
 <body>
-
-    <!-- HERO HEADER -->
-    <header class="bg-white/90 backdrop-blur-md border-b border-gray-200 sticky top-0 z-50 shadow-sm">
-        <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-            <div class="flex items-center gap-3 cursor-pointer" onclick="window.scrollTo(0,0)">
-                <img src="image/logo.png" alt="Logo" class="w-10 h-10 rounded-lg shadow-sm">
-                <span class="font-extrabold text-xl text-slate-800 tracking-tight">CSA DATA 5G</span>
-            </div>
-            <div class="flex gap-3">
-                <a href="https://zalo.me/g/yvehya297" target="_blank" class="hidden sm:flex items-center gap-2 px-4 py-2 text-sm font-bold text-blue-600 bg-blue-50 hover:bg-blue-100 rounded-full transition">
-                    💬 Hỗ Trợ
-                </a>
-                <a href="https://5gfulldata.com" target="_blank" class="flex items-center gap-2 px-5 py-2 text-sm font-bold text-white bg-blue-600 hover:bg-blue-700 rounded-full shadow-lg hover:shadow-blue-500/30 transition transform hover:-translate-y-0.5">
-                    🌐 Vào Web Dịch Vụ
-                </a>
-            </div>
+  <header>
+    <div class="nav wrap">
+      <a class="brand" href="#top" aria-label="Về đầu trang">
+        <div class="logo-brand">
+          <span class="brand-text">Buffet</span>
+          <span class="brand-price">79K</span>
         </div>
-    </header>
+      </a>
 
-    <main class="max-w-5xl mx-auto px-4 py-10">
-        
-        <!-- SECTION 1: GIỚI THIỆU DỊCH VỤ -->
-        <section class="text-center mb-16 reveal">
-            <span class="inline-block px-4 py-1.5 rounded-full bg-blue-100 text-blue-700 text-sm font-bold mb-6 animate-pulse">
-                ✨ Giải Pháp Internet Tiết Kiệm Nhất 2026
-            </span>
-            <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
-                Truy Cập Data 4G/5G <br class="hidden md:block" />
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">Tốc Độ Cao & Không Giới Hạn</span>
-            </h1>
-            <p class="text-lg md:text-xl text-slate-600 mb-10 max-w-3xl mx-auto leading-relaxed">
-                <b>5G FULL DATA</b> Giá rẻ-Uy tín-Chất lượng phù hớp với tất cả người dùng </p>
+      <nav aria-label="Điều hướng">
+        <a href="#specials">Món nổi bật</a>
+        <a href="#pricing">Giá buffet</a>
+        <a href="#info">Giờ mở cửa</a>
+        <a href="#contact">Đặt bàn</a>
+      </nav>
 
-          
-        </section>
+      <div class="actions">
+        <a class="btn" href="tel:0888800740" aria-label="Gọi đặt bàn">📞 Gọi</a>
+        <a class="btn primary" href="#contact">Đặt bàn ngay</a>
+        <button class="hamburger" type="button" id="open" aria-label="Mở menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
 
-      
+  <!-- Drawer mobile -->
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <div class="panel" role="dialog" aria-label="Menu">
+      <div class="row">
+        <div class="brand">
+          <div class="logo-nav">
+            Buffet <span>79K</span>
+          </div>
+        </div>
+        <button class="btn" type="button" id="close">Đóng</button>
+      </div>
+      <a href="#specials" onclick="closeDrawer()">Món nổi bật</a>
+      <a href="#pricing" onclick="closeDrawer()">Giá buffet</a>
+      <a href="#info" onclick="closeDrawer()">Giờ mở cửa</a>
+      <a href="#contact" onclick="closeDrawer()">Đặt bàn</a>
+      <div style="display:grid; gap:10px; margin-top:10px;">
+        <a class="btn primary" href="#contact" onclick="closeDrawer()" style="justify-content:center;">Đặt bàn ngay</a>
+      </div>
+    </div>
+  </div>
 
-        <!-- NAVIGATION -->
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16 max-w-4xl mx-auto reveal">
-            <a href="#step1" class="group bg-white border border-gray-200 p-4 rounded-xl flex flex-col items-center gap-2 hover:border-blue-500 hover:shadow-md transition text-center">
-                <span class="w-8 h-8 rounded-full bg-blue-50 text-blue-600 font-bold flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition">1</span>
-                <div>
-                    <h4 class="font-bold text-slate-800 text-sm">Mua Gói</h4>
-                </div>
+  <main id="top" class="wrap">
+    <!-- HERO -->
+    <section class="hero section">
+      <div class="hero-grid">
+        <div class="reveal">
+          <span class="badge"><span class="dot"></span> Ngon sạch • Phục vụ nhanh • Giá dễ chịu</span>
+
+          <h1>Buffet Bún Đậu 79K<br/>Ăn thả ga — no căng bụng</h1>
+
+          <div class="rating-badge" aria-label="Đánh giá khách hàng">
+            <span class="star" aria-hidden="true">⭐</span>
+            <span><b>4.9/5</b> (320+ đánh giá)</span>
+            <span class="dot" aria-hidden="true">•</span>
+            <span>Ăn sạch – lên món nhanh</span>
+          </div>
+
+          <p class="lead">
+            Chỉ 79K/người – ăn uống thả ga không giới hạn, topping phong phú, lên món liên tục đến khi no căng bụng.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#contact">🍽️ Đặt bàn ngay</a>
+            <a class="btn" href="tel:0888800740">📞 Gọi đặt bàn</a>
+            <button class="btn" type="button" onclick="copyAddress()">📍 Copy địa chỉ</button>
+
+            <a class="btn hero-btn zalo-hero"
+               href="https://zalo.me/0888800740"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Zalo đặt bàn">
+              <img class="brand-icon"
+                   src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg"
+                   alt="Zalo">
+              Zalo
             </a>
-            <a href="#step2" class="group bg-white border border-gray-200 p-4 rounded-xl flex flex-col items-center gap-2 hover:border-blue-500 hover:shadow-md transition text-center">
-                <span class="w-8 h-8 rounded-full bg-blue-50 text-blue-600 font-bold flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition">2</span>
-                <div>
-                    <h4 class="font-bold text-slate-800 text-sm">Gói Nền</h4>
-                </div>
+
+            <a class="btn hero-btn fb-hero"
+               href="https://www.facebook.com/Foliwindstore"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Facebook fanpage">
+              <svg class="brand-icon" viewBox="0 0 24 24" aria-hidden="true" fill="white">
+                <path d="M22 12a10 10 0 10-11.63 9.87v-6.99H7.9V12h2.47V9.8
+                c0-2.44 1.45-3.8 3.68-3.8 1.07 0 2.2.19 2.2.19v2.42h-1.24
+                c-1.22 0-1.6.76-1.6 1.54V12h2.72l-.43 2.88h-2.29v6.99A10
+                10 0 0022 12z"/>
+              </svg>
+              Facebook
             </a>
-            <a href="#step3" class="group bg-white border border-gray-200 p-4 rounded-xl flex flex-col items-center gap-2 hover:border-blue-500 hover:shadow-md transition text-center">
-                <span class="w-8 h-8 rounded-full bg-blue-50 text-blue-600 font-bold flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition">3</span>
-                <div>
-                    <h4 class="font-bold text-slate-800 text-sm">Cài App</h4>
-                </div>
+          </div>
+
+          <div class="hero-contact">
+            <a class="pill" href="https://maps.app.goo.gl/UUtTDULgwM2CRdXY9?g_st=ic" target="_blank" rel="noopener noreferrer">
+              📍 Tắc Cậu, Kiên Giang
             </a>
-            
+            <a class="pill" href="tel:0888800740">
+              📞 0888800740
+            </a>
+            <a class="pill" href="https://zalo.me/0888800740" target="_blank" rel="noopener noreferrer">
+              💬 Zalo
+            </a>
+          </div>
         </div>
 
-        <!-- HƯỚNG DẪN CHI TIẾT -->
-        <div class="max-w-4xl mx-auto space-y-12">
+          <div class="hero-card reveal glow" tabindex="0" aria-label="Khung thông tin nhanh">
+          <div class="hero-top">
+            <div class="pills" aria-hidden="true">
+              <span class="win-dot"></span><span class="win-dot"></span><span class="win-dot"></span>
+            </div>
+            <div style="font-size:13px;">Thông tin nhanh</div>
+          </div>
+          <div class="hero-body">
+            <div class="row2">
+              <div class="card">
+                <p class="kpi">79K</p>
+                <p class="sub">Buffet tiết kiệm • phù hợp nhóm bạn</p>
+              </div>
+              <div class="card">
+                <p class="kpi">10K</p>
+                <p class="sub">Nước uống thả ga</p>
+              </div>
+            </div>
 
-            <!-- BƯỚC 1 -->
-            <section id="step1" class="content-block reveal">
-                <div class="p-6 border-b border-gray-100 flex items-center gap-4 bg-gradient-to-r from-gray-50 to-white">
-                    <div class="step-circle">1</div>
-                    <h2 class="text-2xl font-bold text-slate-800">Đăng Ký Tài Khoản & Mua Gói</h2>
-                </div>
-                
-                <div class="p-6 md:p-8 space-y-6">
-                    <div class="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg">
-                        <div class="flex gap-3">
-                            <span class="text-2xl">🌸</span>
-                            <div>
-                                <h4 class="font-bold text-amber-800 text-sm uppercase mb-1">CHÚC MỪNG NĂM MỚI QUÝ KHÁCH</h4>
-                                <p class="text-sm text-amber-700">Khách hàng vô web đăng ký mua 5G VPN ủng hộ mình nha.</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="card">
+              <p style="margin:0; font-weight:950;">Combo nổi bật</p>
+              <p class="sub" style="margin-top:6px;">Chả cốm, nem chua rán, thịt luộc, dồi… (tùy ngày)</p>
+              <span class="chip">✅ Có chỗ ngồi nhóm</span>
+              <span class="chip" style="margin-left:6px;">✅ In hóa đơn / QR</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                    <div class="prose text-slate-600 max-w-none">
-                        <p><b>Bước 1:</b> Truy cập <a href="https://5gfuldata.com" target="_blank" class="text-blue-600 font-bold hover:underline">csadata5g.com</a> để đăng ký tài khoản.</p>
-                        <p><b>Bước 2:</b> Nạp tiền và chọn gói cước phù hợp:</p>
-                        <ul class="list-disc pl-5 space-y-2 mt-2">
-                           
-                            <li><b>Basic - Limited - Premium - Vĩnh Viễn VN:</b> Tùy chọn gói phù hợp với nhu cầu sử dụng.</li>
-                        </ul>
-                    </div>
+    <!-- SPECIALS -->
+    <section id="specials" class="section">
+      <div class="title">
+        <div>
+          <h2>Món nổi bật</h2>
+          <p>Gợi ý menu — bạn sửa tên món theo quán của bạn.</p>
+        </div>
+      </div>
 
+      <div class="grid specials">
+        <article class="food reveal glow" tabindex="0">
+          <div class="img" aria-hidden="true"></div>
+          <div class="body">
+            <h3>Mẹt bún đậu đầy đủ</h3>
+            <p>Thịt luộc, chả cốm, nem rán, rau dưa…</p>
+            <span class="chip">🔥 Best seller</span>
+          </div>
+        </article>
 
-                </div>
-            </section>
+        <article class="food reveal glow" tabindex="0">
+          <div class="img" aria-hidden="true"></div>
+          <div class="body">
+            <h3>Chả cốm / Nem rán</h3>
+            <p>Giòn thơm, chấm mắm tôm cực cuốn.</p>
+            <span class="chip">✨ Giòn ngon</span>
+          </div>
+        </article>
 
-            <!-- BƯỚC 2 -->
-            <section id="step2" class="content-block reveal">
-                <div class="p-6 border-b border-gray-100 flex items-center gap-4 bg-gradient-to-r from-gray-50 to-white">
-                    <div class="step-circle">2</div>
-                    <h2 class="text-2xl font-bold text-slate-800">Đăng Ký Gói Nền Nhà Mạng</h2>
-                </div>
-                
-                <div class="p-6 md:p-8">
-                    <p class="text-slate-600 mb-6">Bạn cần đăng ký gói "nền" (thường là gói TikTok) để làm nền kết nối. Hãy chọn nhà mạng bạn đang dùng:</p>
+        <article class="food reveal glow" tabindex="0">
+          <div class="img" aria-hidden="true"></div>
+          <div class="body">
+            <h3>Nước giải khát</h3>
+            <p>Trà tắc, nước ngọt, nước suối…</p>
+            <span class="chip">🧊 Mát lạnh</span>
+          </div>
+        </article>
+      </div>
+    </section>
 
-                    <!-- Tabs -->
-                    <div class="flex border-b border-gray-200 mb-6">
-                        <button class="tab-btn active flex-1" onclick="openTab(event, 'viettel')">VIETTEL</button>
-                        <button class="tab-btn flex-1" onclick="openTab(event, 'vina')">VINAPHONE</button>
-                        <button class="tab-btn flex-1" onclick="openTab(event, 'mobi')">MOBIFONE</button>
-                    </div>
+    <!-- PRICING -->
+    <section id="pricing" class="section">
+      <div class="title">
+        <div>
+          <h2>Giá buffet</h2>
+          <p>Rõ ràng — dễ chọn — dễ quyết.</p>
+        </div>
+      </div>
 
-                    <!-- Content Viettel -->
-                    <div id="viettel" class="tab-content block animate-fade">
-                        <div class="bg-red-50 p-4 rounded-xl border border-red-100 mb-6">
-                            <h3 class="font-bold text-red-700 flex items-center gap-2 mb-1">🔴 Sim Viettel</h3>
-                            <p class="text-sm text-red-600">Bạn có thể chọn 1 trong 3 gói nền để đăng ký nền TikTok.</p>
-                        </div>
+      <div class="grid pricing">
+        <div class="price reveal glow" tabindex="0">
+          <span class="tag">Trẻ em</span>
+          <h3>Buffet Trẻ Em</h3>
+          <div class="amount">49K <span>/ suất</span></div>
+          <ul class="list">
+            <li><span class="check">✓</span> Phần buffet phù hợp với bé</li>
+            <li><span class="check">✓</span> Ăn uống thả ga</li>
+            <li><span class="check">✓</span> Topping đa dạng</li>
+          </ul>
+          <a class="btn" href="#contact" style="justify-content:center;">Đặt bàn</a>
+        </div>
 
-                        <div class="grid md:grid-cols-2 gap-5">
-                        
-                        
+        <div class="price highlight reveal">
+          <span class="tag">Phổ biến</span>
+          <h3>Buffet Người Lớn + Nước</h3>
+          <div class="amount">89K <span>/ suất</span></div>
+          <ul class="list">
+            <li><span class="check">✓</span> Ăn thả ga — no đã</li>
+            <li><span class="check">✓</span> Topping phong phú</li>
+            <li><span class="check">✓</span> Nhóm đông càng vui</li>
+          </ul>
+          <a class="btn primary" href="#contact" style="justify-content:center;">🍽️ Đặt bàn ngay</a>
+        </div>
 
-                            <!-- Cách 2: Gói Soạn Tin -->
-                            <div class="bg-white border border-gray-200 rounded-2xl p-5 shadow-sm relative">
-                                <h4 class="font-bold text-lg text-slate-800 mb-2">Soạn Tin Nhắn ở tin </h4>
-                                <p class="text-sm text-slate-600 mb-4 h-10">Đăng ký gói chính gốc Viettel qua tin nhắn SMS. Nhanh gọn và tiện lợi.</p>
-                                
-                                <div class="space-y-3 mb-4">
-                                    <div>
-                                        <div class="flex justify-between items-center mb-1">
-                                            <span class="font-bold text-sm text-blue-700">Gói T50K (Khuyên dùng)</span>
-                                            <span class="text-xs bg-gray-100 px-2 py-0.5 rounded">50k/tháng</span>
-                                        </div>
-                                        <div class="syntax-box py-2 my-0 text-sm" onclick="copyText('T50K gửi 191')">T50K gửi 191</div>
-                                        <p class="text-xs text-slate-500 mt-1">Có 50GB/tháng. Phù hợp dùng vừa đủ.</p>
-                                    </div>
+        <div class="price reveal glow" tabindex="0">
+          <span class="tag">Tùy chọn</span>
+          <h3>Nước giải khát</h3>
+          <div class="amount">10K <span>/ món</span></div>
+          <ul class="list">
+            <li><span class="check">✓</span> Nước sâm / Nước mía</li>
+            <li><span class="check">✓</span> Trà tắc / Nước ngọt</li>
+            <li><span class="check">✓</span> Mát lạnh</li>
+          </ul>
+          <a class="btn" href="#contact" style="justify-content:center;">Đặt bàn</a>
+        </div>
+      </div>
+    </section>
 
-                                    <div>
-                                        <div class="flex justify-between items-center mb-1">
-                                            <span class="font-bold text-sm text-purple-700">Gói T15KN (Dùng nhiều)</span>
-                                            <span class="text-xs bg-gray-100 px-2 py-0.5 rounded">15k/tuần</span>
-                                        </div>
-                                        <div class="syntax-box py-2 my-0 text-sm" onclick="copyText('T15KN gửi 191')">T15KN gửi 191</div>
-                                        <p class="text-xs text-slate-500 mt-1">~60k/tháng được 100GB (25GB/tuần). Phù hợp cày phim, game nhiều.</p>
-                                    </div>
-                                    
-                                     <div>
-                                        <div class="flex justify-between items-center mb-1">
-                                            <span class="font-bold text-sm text-slate-700">Gói T5K (Gói ngày)</span>
-                                            <span class="text-xs bg-gray-100 px-2 py-0.5 rounded">5k/ngày</span>
-                                        </div>
-                                        <div class="syntax-box py-2 my-0 text-sm" onclick="copyText('T5K gửi 191')">T5K gửi 191</div>
-                                    </div>
-                                </div>
+    <!-- INFO -->
+    <section id="info" class="section">
+      <div class="title">
+        <div>
+          <h2>Giờ mở cửa & Địa chỉ</h2>
 
-                                
-                            </div>
+          <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px;">
+            <a class="btn primary"
+              href="https://maps.app.goo.gl/UUtTDULgwM2CRdXY9?g_st=ic"
+              target="_blank"
+              rel="noopener noreferrer">
+              🗺️ Xem Google Maps
+            </a>
 
-                        </div>
-                    </div>
+            <a class="btn primary"
+              href="https://www.google.com/maps/dir/?api=1&destination=T%E1%BA%AFc%20C%E1%BA%ADu%2C%20Ki%C3%AAn%20Giang"
+              target="_blank"
+              rel="noopener noreferrer">
+              🧭 Chỉ đường đến quán
+            </a>
+          </div>
+        </div>
+      </div>
 
-                    <!-- Content Vina -->
-                    <div id="vina" class="tab-content hidden animate-fade">
-                        <div class="bg-blue-50 p-4 rounded-xl border border-blue-100 mb-6">
-                            <h3 class="font-bold text-blue-700 flex items-center gap-2 mb-1">🔵 Sim VinaPhone - Ưu Tiên Gói TK30</h3>
-                            <p class="text-sm text-blue-600">Gói cước nền TikTok ổn định nhất mạng VinaPhone hiện nay.</p>
-                        </div>
+      <div class="info">
+        <div class="grid" style="gap:12px;">
+          <div class="card reveal glow" tabindex="0">
+            <p style="font-weight:950; margin:0;">⏰ Giờ mở cửa</p>
+            <p class="sub" style="margin-top:8px;">
+              Thứ 2 – CN: <b>15:00 – 22:00</b>
+            </p>
+          </div>
 
-                        <div class="grid md:grid-cols-2 gap-8">
-                            
-                            <!-- Gói TK30 -->
-                            <div class="bg-white border-2 border-blue-500 rounded-2xl p-5 shadow-sm relative overflow-hidden">
-                                 <div class="absolute top-0 right-0 bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">KHUYÊN DÙNG</div>
-                                <h4 class="font-bold text-lg text-slate-800 mb-2">Gói TK30 (Tháng)</h4>
-                                <p class="text-sm text-slate-600 mb-4">Miễn phí 100% Data truy cập ứng dụng TikTok. Hạn dùng 30 ngày.</p>
-                                
-                                <div class="space-y-3 mb-4">
-                                     <div class="flex justify-between items-center mb-1">
-                                        <span class="font-bold text-sm text-blue-700">Cú pháp đăng ký:</span>
-                                        <span class="text-xs bg-gray-100 px-2 py-0.5 rounded font-bold">30.000đ/tháng</span>
-                                    </div>
-                                    <div class="syntax-box py-3 my-0 text-lg text-center justify-center font-bold text-blue-700 bg-blue-50 border-blue-200" onclick="copyText('TK30 gửi 888')">TK30 gửi 888</div>
-                                    <p class="text-xs text-center text-slate-500 mt-1 italic">Lưu ý: Tài khoản chính cần có đủ 30k.</p>
-                                </div>
-                            </div>
+          <div class="card reveal glow" tabindex="0">
+            <p style="font-weight:950; margin:0;">📍 Địa chỉ</p>
+            <p class="sub" style="margin-top:8px;">
+              <b>Tắc Cậu, Kiên Giang</b><br/>
+              SDT / Zalo: <b>0888800740</b>
+            </p>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px;">
+              <a class="btn" href="tel:0888800740">📞 Gọi</a>
+              <a class="btn" href="#contact">🧾 Đặt bàn</a>
+              <a class="btn primary" href="https://maps.app.goo.gl/UUtTDULgwM2CRdXY9?g_st=ic" target="_blank" rel="noopener noreferrer">🗺️ Mở Maps</a>
+            </div>
+          </div>
 
-                        
+          <div class="card reveal">
+            <p style="font-weight:950; margin:0;">⭐ Vì sao khách thích?</p>
+            <p class="sub" style="margin-top:8px;">
+              Ngon sạch, mẹt đầy, phục vụ nhanh, giá hợp lý.
+              Đi nhóm bạn/ gia đình đều tiện.
+            </p>
+          </div>
+        </div>
 
-                        </div>
-                    </div>
+        <div class="map reveal glow" tabindex="0" aria-label="Bản đồ">
+          <iframe
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0000000000005!2d106.00000000000001!3d10.800000000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x0000000000000000!2zR29vZ2xlIE1hcHM!5e0!3m2!1svi!2s!4v0000000000000"
+            aria-label="Google Maps">
+          </iframe>
+        </div>
+      </div>
+    </section>
 
-                    <!-- Content Mobi -->
-                    <div id="mobi" class="tab-content hidden animate-fade">
-                        <div class="bg-yellow-50 p-4 rounded-xl border border-yellow-100 mb-6">
-                            <h3 class="font-bold text-yellow-700 flex items-center gap-2 mb-1">🟡 Sim MobiFone</h3>
-                            <p class="text-sm text-yellow-600">Gói nền TikTok siêu rẻ và ổn định cho MobiFone.</p>
-                        </div>
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="title">
+        <div>
+          <h2>Đặt bàn nhanh</h2>
+          <br />
+          <p>🔥 <b>Đặt bàn qua Zalo hoặc gọi ngay</b></p>
+        </div>
+      </div>
 
-                        <div class="grid md:grid-cols-2 gap-8 items-start">
-                            
-                            <!-- Gói TIK30 -->
-                            <div class="bg-white border-2 border-yellow-400 rounded-2xl p-5 shadow-sm relative overflow-hidden">
-                                <div class="absolute top-0 right-0 bg-yellow-400 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">HOT</div>
-                                <h4 class="font-bold text-lg text-slate-800 mb-2">Gói TIK30 (50k/Tháng)</h4>
-                                <p class="text-sm text-slate-600 mb-4">Ưu đãi data truy cập TikTok tốc độ cao. Hạn dùng 30 ngày.</p>
-                                
-                                <div class="space-y-3 mb-4">
-                                     <div class="flex justify-between items-center mb-1">
-                                        <span class="font-bold text-sm text-yellow-700">Cú pháp đăng ký:</span>
-                                        <span class="text-xs bg-gray-100 px-2 py-0.5 rounded font-bold">50.000đ/tháng</span>
-                                    </div>
-                                    <div class="syntax-box py-3 my-0 text-lg text-center justify-center font-bold text-yellow-700 bg-yellow-50 border-yellow-200" onclick="copyText('TIK30 gửi 9199')">TIK30 gửi 9199</div>
-                                    <p class="text-xs text-center text-slate-500 mt-1 italic">Lưu ý: Tài khoản chính cần có đủ 50k.</p>
-                                </div>
-                            </div>
+      <div class="contact">
+        <div class="form reveal glow" tabindex="0">
+          <form id="bookingForm">
+            <div class="field">
+              <label for="name">Tên khách</label>
+              <input id="name" name="name" placeholder="VD: Huy Hoang" required />
+            </div>
 
+            <div class="field">
+              <label for="phone">Số điện thoại</label>
+              <input id="phone" name="phone" inputmode="tel" placeholder="VD: 0888800740" required />
+            </div>
 
+            <div class="field">
+              <label for="people">Số người</label>
+              <input id="people" name="people" type="number" min="1" value="2" required />
+            </div>
 
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <div class="field">
+              <label for="time">Giờ đến</label>
+              <input id="time" name="time" type="time" required />
+            </div>
 
+            <div class="field">
+              <label for="note">Ghi chú</label>
+              <textarea id="note" name="note" placeholder="VD: cần bàn 6 người, có trẻ em..."></textarea>
+            </div>
+              <button 
+  class="btn primary" 
+  type="button"
+  style="justify-content:center; width:100%;"
+  onclick="window.open('https://zalo.me/0888800740?text=Tôi muốn đặt bàn Buffet 79K','_blank')">
+  ✅ Xác nhận đặt bàn
+</button>
 
-                    <!-- Tabs App -->
-                    <div class="flex gap-2 mb-6 bg-slate-100 p-1 rounded-lg overflow-x-auto">
-                        <button class="app-tab-btn active flex-1 py-2 px-4 rounded-md text-sm font-bold bg-white text-blue-600 shadow-sm transition whitespace-nowrap" onclick="openAppTab(event, 'ios')">IOS (iPhone)</button>
-                        <button class="app-tab-btn flex-1 py-2 px-4 rounded-md text-sm font-bold text-slate-500 hover:text-slate-700 transition whitespace-nowrap" onclick="openAppTab(event, 'android')">ANDROID</button>
-                       
-                    </div>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px;">
+              <button class="btn primary" type="button" onclick="bookViaZalo()"
+                      style="justify-content:center; flex:1; min-width:180px;">
+                ✅ Đặt bàn qua Zalo
+              </button>
+              <button class="btn" type="button" onclick="bookViaMessenger()"
+                      style="justify-content:center; flex:1; min-width:180px;">
+                ✅ Đặt bàn qua Messenger
+              </button>
+            </div>
 
-                    <!-- --- TAB IOS --- -->
-                    <div id="ios" class="app-content block animate-fade space-y-4">
-                        
-                        <!-- Card 1: Shadowrocket (Ưu Tiên) -->
-                        <div class="app-card active"> <!-- Mặc định mở cái đầu tiên cho tiện -->
-                            <div class="app-header" onclick="toggleAccordion(this)">
-                                <div class="app-icon-box bg-indigo-50 text-indigo-600">🚀</div>
-                                <div class="flex-1">
-                                    <div class="flex items-center gap-2 mb-1">
-                                        <h4 class="font-bold text-slate-800 text-lg">Shadowrocket</h4>
-                                        <span class="recommend-badge">Khuyên Dùng</span>
-                                    </div>
-                                    <p class="text-xs text-slate-500">Ứng dụng VPN số 1 cho iPhone/iPad</p>
-                                </div>
-                                <span class="material-icons-round rotate-icon text-3xl">expand_more</span>
-                            </div>
-                            <div class="card-content" style="max-height: 2000px; opacity: 1;"> <!-- Mặc định hiện nội dung -->
-                                <div class="p-6 space-y-6">
-                                    <div>
-                                        <h4 class="font-bold text-slate-800 mb-2">1. Tải ứng dụng</h4>
-                                        <ul class="list-disc pl-5 space-y-2 text-slate-600 text-sm">
-                                            <li>Tải miễn phí tại <a href="https://ccbaohe.com/appleID/" target="_blank" class="text-blue-600 font-bold hover:underline">https://ccbaohe.com/appleID/</a></li>
+            <p class="note" style="margin-top:10px;">
+              * Khi bấm, hệ thống sẽ <b>copy nội dung</b> đặt bàn và mở Zalo/Messenger để bạn <b>dán & gửi</b>.
+            </p>
+          </form>
+        </div>
 
-                                        </ul>
-                                    </div>
-                                    <div>
-                                        <h4 class="font-bold text-slate-800 mb-2">2. Đồng bộ & Kết nối</h4>
-                                        <p class="text-sm text-slate-600 mb-2">Vào Web > Đồng bộ máy chủ > Sao chép liên kết Shadowrocket. Mở app lên sẽ tự động phát hiện.</p>
-                                        <img src="https://i.imgur.com/dAwsnXg.jpeg" class="rounded-lg border zoomable" loading="lazy">
-                                    </div>
-                                    <div>
-                                        
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <div class="grid" style="gap:12px;">
+          <div class="card reveal glow" tabindex="0">
+            <p style="margin:0; font-weight:950;"> 🎁 Ưu đãi</p>
+            <p class="sub" style="margin-top:8px;">
+              Giảm <b>10% cho 3 ngày khai trương </b>
+              <p>🎁 Đi càng đông – Giảm càng sâu</p>
+            </p>
+          </div>
 
-                       
-                            </div>
+          <div class="card reveal glow" tabindex="0">
+            <p style="margin:0; font-weight:950;">🧾 Thanh toán tiện</p>
+            <p class="sub" style="margin-top:8px;">
+              Nhận chuyển khoản, quét QR, in hóa đơn nhanh.
+            </p>
+          </div>
 
+          <div class="card reveal glow" tabindex="0">
+            <p style="margin:0; font-weight:950;">📞 Liên hệ nhanh</p>
+            <p class="sub" style="margin-top:8px;">
+              SDT / Zalo: <b>0888800740</b><br/>
+              Địa chỉ: <b>Tắc Cậu, Kiên Giang</b>
+            </p>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px;">
+              <a class="btn" href="tel:0888800740">📞 Gọi</a>
+              <a class="btn" href="mailto:you@example.com">✉️ Email</a>
 
-                    <!-- --- TAB ANDROID --- -->
-                    <div id="android" class="app-content hidden animate-fade space-y-4">
-                        
-                        <!-- Card 1: V2Tun (Ưu Tiên) -->
-                        <div class="app-card active">
-                            <div class="app-header" onclick="toggleAccordion(this)">
-                                <div class="app-icon-box bg-green-50 text-green-600">📡</div>
-                                <div class="flex-1">
-                                    <div class="flex items-center gap-2 mb-1">
-                                        <h4 class="font-bold text-slate-800 text-lg">Tun</h4>
-                                        <span class="recommend-badge bg-gradient-to-r from-green-500 to-emerald-600">Khuyên Dùng</span>
-                                    </div>
-                                    <p class="text-xs text-slate-500">Mượt mà, dễ sử dụng nhất cho Android</p>
-                                </div>
-                                <span class="material-icons-round rotate-icon text-3xl">expand_more</span>
-                            </div>
-                            <div class="card-content" style="max-height: 2000px; opacity: 1;">
-                                <div class="p-6 space-y-6">
-                                    <div>
-                                        <h4 class="font-bold text-slate-800 mb-2">1. Tải ứng dụng</h4>
-                                        <a href="https://play.google.com/store/apps/details?id=com.v2raytun.android" target="_blank" class="text-blue-600 font-bold underline text-sm">Tải V2Tun trên CH Play</a>
-                                    </div>
-                                    <div>
-                                        <h4 class="font-bold text-slate-800 mb-2">2. Sao chép liên kết Sub</h4>
-                                        <p class="text-sm text-slate-600 mb-2">Trên web CSA, chọn <b>Đồng bộ máy chủ</b> > <b>Sao chép liên kết đăng ký</b>.</p>
-                                        <img src="app/shadowrocket/sao-chep-lien-ket.jpg" onerror="this.style.display='none'" class="w-full rounded-lg shadow border zoomable" loading="lazy">
-                                    </div>
-                                    <div>
-                                        <h4 class="font-bold text-slate-800 mb-2">3. Nhập cấu hình</h4>
-                                        <p class="text-sm text-slate-600 mb-2">Vào App V2Tun > Bấm dấu <b>(+)</b> góc phải trên > Chọn <b>"Nhập cấu hình từ Clipboard"</b> > Done.</p>
-                                        <img src="app/v2tun/v2tun-dong-bo.png" onerror="this.style.display='none'" class="w-full rounded-lg shadow border zoomable" loading="lazy">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+              <!-- ✅ Facebook button fixed (không lồng thẻ a) -->
+              <a class="btn primary"
+                 href="https://www.facebook.com/Foliwindstore"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="white" style="margin-right:8px;">
+                  <path d="M22 12a10 10 0 10-11.63 9.87v-6.99H7.9V12h2.47V9.8
+                    c0-2.44 1.45-3.8 3.68-3.8 1.07 0 2.2.19 2.2.19v2.42h-1.24
+                    c-1.22 0-1.6.76-1.6 1.54V12h2.72l-.43 2.88h-2.29v6.99A10
+                    10 0 0022 12z"/>
+                </svg>
+                Facebook
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                        <!-- Card 2: Gold V2Ray -->
-                        <div class="app-card">
-                            <div class="app-header" onclick="toggleAccordion(this)">
-                                <div class="app-icon-box bg-yellow-50 text-yellow-600">🥇</div>
-                                <div class="flex-1">
-                                    <h4 class="font-bold text-slate-800 text-lg">Gold V2Ray</h4>
-                                    <p class="text-xs text-slate-500">Ứng dụng ổn định lâu đời</p>
-                                </div>
-                                <span class="material-icons-round rotate-icon text-3xl">expand_more</span>
-                            </div>
-                            <div class="card-content">
-                                <div class="p-6 space-y-6">
-                                    <div>
-                                        <h4 class="font-bold text-slate-800 mb-2">1. Tải ứng dụng</h4>
-                                        <a href="https://play.google.com/store/apps/details?id=me.syncrex.goldv2ray&hl=vi" target="_blank" class="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg text-sm transition">
-                                            📥 Tải trên CH Play
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <h4 class="font-bold text-slate-800 mb-2">2. Hướng dẫn kết nối</h4>
-                                        <ul class="list-disc pl-5 space-y-2 text-slate-600 text-sm">
-                                            <li>Sao chép liên kết đăng ký trên Web.</li>
-                                            <li>Vào Gold V2Ray > Menu > Các gói đăng ký > Dấu (+) > Nhập tên và Dán Link.</li>
-                                            <li>Ra màn hình chính > Bấm Update > Kết nối.</li>
-                                        </ul>
-                                        <div class="mt-2">
-                                            <img src="app/v2raygold/nhap-sub-v2raygold.png" onerror="this.style.display='none'" class="w-full rounded-lg shadow border zoomable" loading="lazy">
-                                     
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <footer>
+      <div class="wrap foot">
+        <div>© <span id="year"></span> Buffet Bún Đậu 79K. All rights reserved.</div>
+        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+          <a href="#specials">Món nổi bật</a>
+          <a href="#pricing">Giá buffet</a>
+          <a href="#contact">Đặt bàn</a>
+        </div>
+      </div>
+    </footer>
+  </main>
 
-           
+  <!-- ✅ Floating actions: CHỈ 1 BLOCK -->
+  <div class="float" aria-label="Hành động nhanh">
+    <!-- CALL -->
+    <a class="fab call-btn"
+       href="tel:0888800740"
+       title="Gọi"
+       aria-label="Gọi">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="white" aria-hidden="true">
+        <path d="M6.62 10.79a15.91 15.91 0 006.59 6.59l2.2-2.2a1 1 0 011-.24
+        11.36 11.36 0 003.56.57 1 1 0 011 1v3.5a1 1 0 01-1 1A17.93
+        17.93 0 012 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0
+        00.57 3.56 1 1 0 01-.25 1z"/>
+      </svg>
+    </a>
 
+    <!-- ZALO -->
+    <a class="fab zalo-btn"
+       href="https://zalo.me/0888800740"
+       target="_blank"
+       rel="noopener noreferrer"
+       title="Zalo"
+       aria-label="Zalo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" alt="Zalo">
+    </a>
 
-    <!-- UI COMPONENTS -->
-    <div id="zoomOverlay" class="zoom-overlay" onclick="this.classList.remove('active')">
-        <img id="zoomImg" class="max-w-[95%] max-h-[90vh] rounded-lg shadow-2xl object-contain transition-transform" src="" alt="Zoom Image">
-    </div>
-    
-    <div id="toast">Đã sao chép nội dung!</div>
-    
-    <div id="backToTop" onclick="scrollToTop()">
-        <span class="material-icons-round">arrow_upward</span>
-    </div>
+    <!-- MESSENGER -->
+    <a class="fab messenger-btn"
+       href="https://m.me/Foliwindstore"
+       target="_blank"
+       rel="noopener noreferrer"
+       title="Messenger"
+       aria-label="Messenger">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="white" aria-hidden="true">
+        <path d="M12 2C6.48 2 2 6.03 2 10.5c0 2.54 1.63 4.8 4.09 6.28V22l4.02-2.21c.62.17
+        1.27.26 1.94.26 5.52 0 10-4.03 10-8.5S17.52 2 12 2zm1.12
+        11.47l-2.55-2.72-4.96 2.72 5.45-5.78 2.57 2.72
+        4.94-2.72-5.45 5.78z"/>
+      </svg>
+    </a>
 
-    <script>
-        // 1. Tab Logic
-        function openTab(evt, tabName) {
-            document.querySelectorAll("#step2 .tab-content").forEach(el => el.classList.add("hidden"));
-            document.querySelectorAll("#step2 .tab-btn").forEach(btn => btn.className = "tab-btn flex-1");
-            document.getElementById(tabName).classList.remove("hidden");
-            evt.currentTarget.className = "tab-btn active flex-1";
+    <!-- FACEBOOK -->
+    <a class="fab fb-btn"
+       href="https://www.facebook.com/Foliwindstore"
+       target="_blank"
+       rel="noopener noreferrer"
+       title="Facebook"
+       aria-label="Facebook">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="white" aria-hidden="true">
+        <path d="M22 12a10 10 0 10-11.63 9.87v-6.99H7.9V12h2.47V9.8
+        c0-2.44 1.45-3.8 3.68-3.8 1.07 0 2.2.19 2.2.19v2.42h-1.24
+        c-1.22 0-1.6.76-1.6 1.54V12h2.72l-.43 2.88h-2.29v6.99A10
+        10 0 0022 12z"/>
+      </svg>
+    </a>
+  </div>
+  <script>
+    // Reveal on scroll
+    const reveals = Array.from(document.querySelectorAll(".reveal"));
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{
+        if(e.isIntersecting){
+          e.target.classList.add("show");
+          io.unobserve(e.target);
         }
+      });
+    }, { threshold: 0.12 });
+    reveals.forEach(el=> io.observe(el));
 
-        function openAppTab(evt, appName) {
-            document.querySelectorAll("#step3 .app-content").forEach(el => el.classList.add("hidden"));
-            document.querySelectorAll("#step3 .app-tab-btn").forEach(btn => btn.className = "app-tab-btn flex-1 py-2 px-4 rounded-md text-sm font-bold text-slate-500 hover:text-slate-700 transition whitespace-nowrap");
-            evt.currentTarget.className = "app-tab-btn active flex-1 py-2 px-4 rounded-md text-sm font-bold bg-white text-blue-600 shadow-sm transition whitespace-nowrap";
-            document.getElementById(appName).classList.remove("hidden");
-        }
+    // Drawer
+    const drawer = document.getElementById("drawer");
+    const openBtn = document.getElementById("open");
+    const closeBtn = document.getElementById("close");
 
-        // 2. Accordion Logic
-        function toggleAccordion(header) {
-            const card = header.closest('.app-card');
-            const content = card.querySelector('.card-content');
-            
-            card.classList.toggle('active');
-            
-            if (card.classList.contains('active')) {
-                content.style.maxHeight = content.scrollHeight + "px";
-            } else {
-                content.style.maxHeight = null;
-            }
-        }
+    function openDrawer(){
+      drawer.classList.add("open");
+      drawer.setAttribute("aria-hidden","false");
+    }
+    function closeDrawer(){
+      drawer.classList.remove("open");
+      drawer.setAttribute("aria-hidden","true");
+    }
+    openBtn.addEventListener("click", openDrawer);
+    closeBtn.addEventListener("click", closeDrawer);
+    drawer.addEventListener("click", (e)=>{ if(e.target === drawer) closeDrawer(); });
 
-        // 3. Scroll Reveal Logic
-        function reveal() {
-            var reveals = document.querySelectorAll(".reveal");
-            for (var i = 0; i < reveals.length; i++) {
-                var windowHeight = window.innerHeight;
-                var elementTop = reveals[i].getBoundingClientRect().top;
-                var elementVisible = 100;
-                if (elementTop < windowHeight - elementVisible) {
-                    reveals[i].classList.add("active");
-                }
-            }
-        }
-        window.addEventListener("scroll", reveal);
-        // Trigger once on load
-        reveal();
+    // Toast
+    let toastTimer = null;
+    function toast(msg){
+      let t = document.getElementById("toast");
+      if(!t){
+        t = document.createElement("div");
+        t.id = "toast";
+        t.style.position = "fixed";
+        t.style.left = "50%";
+        t.style.bottom = "18px";
+        t.style.transform = "translateX(-50%)";
+        t.style.padding = "10px 12px";
+        t.style.borderRadius = "14px";
+        t.style.background = "rgba(15,20,40,.92)";
+        t.style.border = "1px solid rgba(255,255,255,.14)";
+        t.style.color = "rgba(255,255,255,.92)";
+        t.style.backdropFilter = "blur(14px)";
+        t.style.boxShadow = "0 18px 55px rgba(0,0,0,.35)";
+        t.style.zIndex = "99999";
+        t.style.fontWeight = "900";
+        t.style.fontSize = "13px";
+        document.body.appendChild(t);
+      }
+      t.textContent = msg;
+      t.style.opacity = "1";
+      if(toastTimer) clearTimeout(toastTimer);
+      toastTimer = setTimeout(()=>{ t.style.opacity="0"; }, 2000);
+    }
 
-        // 4. Back to Top Logic
-        const backToTopBtn = document.getElementById("backToTop");
-        window.onscroll = function() {
-            // Reveal logic call also happening on scroll
-            reveal(); 
-            
-            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-                backToTopBtn.classList.add("show");
-            } else {
-                backToTopBtn.classList.remove("show");
-            }
-        };
-        function scrollToTop() {
-            window.scrollTo({top: 0, behavior: 'smooth'});
-        }
+    // Copy address
+    async function copyAddress(){
+      const text = "Buffet Bún Đậu 79K - Tắc Cậu, Kiên Giang";
+      try{
+        await navigator.clipboard.writeText(text);
+        toast("✅ Đã copy địa chỉ!");
+      }catch{
+        toast("Không copy được (trình duyệt chặn).");
+      }
+    }
 
-        // 5. Copy Logic
-        function copyText(text) {
-            navigator.clipboard.writeText(text).then(() => {
-                const toast = document.getElementById("toast");
-                toast.className = "show";
-                setTimeout(() => { toast.className = toast.className.replace("show", ""); }, 2500);
-            }).catch(err => {
-                console.error('Không thể copy', err);
-            });
-        }
+    // Booking demo
+    document.getElementById("bookingForm").addEventListener("submit", (e)=>{
+      e.preventDefault();
+      const name = document.getElementById("name").value.trim() || "bạn";
+      toast(`✅ Đã nhận đặt bàn cho ${name} (demo)!`);
+      e.target.reset();
+    });
 
-        // 6. Lightbox Logic
-        document.querySelectorAll('.zoomable').forEach(img => {
-            img.addEventListener('click', (e) => {
-                const overlay = document.getElementById('zoomOverlay');
-                const zoomImg = document.getElementById('zoomImg');
-                zoomImg.src = e.target.src;
-                overlay.classList.add('active');
-            });
-        });
-    </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"4634682c5a6248a6ac4d4caa115818bb","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+    // Year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Booking via Zalo/Messenger
+    const ZALO_PHONE = "0888800740";
+    const MESSENGER_PAGE = "Foliwindstore";
+
+    function buildBookingMessage(){
+      const name = document.getElementById("name")?.value.trim();
+      const phone = document.getElementById("phone")?.value.trim();
+      const people = document.getElementById("people")?.value;
+      const time = document.getElementById("time")?.value;
+      const note = document.getElementById("note")?.value.trim();
+
+      return (
+`ĐẶT BÀN - Buffet Bún Đậu 79K
+- Tên: ${name || "(chưa nhập)"}
+- SĐT: ${phone || "(chưa nhập)"}
+- Số người: ${people || "(chưa nhập)"}
+- Giờ đến: ${time || "(chưa nhập)"}
+- Ghi chú: ${note || "(không)"}
+
+Xin xác nhận giúp em ạ.`
+      );
+    }
+
+    async function copyThenOpen(url){
+      const msg = buildBookingMessage();
+      try{
+        await navigator.clipboard.writeText(msg);
+        window.open(url, "_blank", "noopener,noreferrer");
+        alert("✅ Đã copy nội dung đặt bàn. Mở app và DÁN để gửi nhé!");
+      }catch(e){
+        window.open(url, "_blank", "noopener,noreferrer");
+        alert("Mình đã mở app. Bạn copy & gửi nội dung đặt bàn theo thông tin đã nhập nhé!");
+      }
+    }
+
+    function bookViaZalo(){
+      const url = `https://zalo.me/${ZALO_PHONE}`;
+      copyThenOpen(url);
+    }
+
+    function bookViaMessenger(){
+      const url = `https://m.me/${MESSENGER_PAGE}`;
+      copyThenOpen(url);
+    }
+    // ✅ Mobile: tap để bật/tắt glow (giữ hiệu ứng)
+document.querySelectorAll('.glow').forEach(el => {
+  el.addEventListener('click', (e) => {
+    // tắt các thẻ khác
+    document.querySelectorAll('.glow.is-active').forEach(x => { if (x !== el) x.classList.remove('is-active'); });
+    // bật/tắt thẻ hiện tại
+    el.classList.toggle('is-active');
+    e.stopPropagation();
+  });
+});
+
+// tap ra ngoài thì tắt
+document.addEventListener('click', () => {
+  document.querySelectorAll('.glow.is-active').forEach(x => x.classList.remove('is-active'));
+});
+
+  </script>
+</body>
+</html>
